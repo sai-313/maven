@@ -19,5 +19,6 @@ script: 'scp /home/ubuntu/.jenkins/workspace/ScriptedPipeline/webapp/target/weba
     stage('Continuous Delivery') 
 	{
 script: 'scp /home/ubuntu/.jenkins/workspace/ScriptedPipeline/webapp/target/webapp.war   ubuntu@172.31.24.38:/var/lib/tomcat8/webapps/prodenv.war'
-	
+	}
+}
 
