@@ -16,8 +16,5 @@ script: 'scp /root/.jenkins/workspace/jenkins/target/hello-world-war-1.0.0.war  
 	{
      script: 'echo "Testing Passed"'
 	}
-    stage('Continuous Delivery') 
-	{
-script: 'scp /root/home/.jenkins/workspace/ScriptedPipeline/webapp/target/webapp.war   root@:172.31.3.241/var/lib/tomcat9/webapps/qaenv.war'
-	}
+   
 }
