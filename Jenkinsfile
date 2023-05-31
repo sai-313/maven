@@ -4,8 +4,5 @@ node('built-in')
 	{
     git 'https://github.com/sai-313/hello-world-war.git'
 	}
-    stage('Continuous Build') 
-	{
-    script: 'mvn package'
-	}
+  
 }
