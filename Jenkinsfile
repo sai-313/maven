@@ -10,7 +10,7 @@ node('built-in')
 	}
     stage('Continuous Deployment') 
 	{
-script: 'scp /root/home/.jenkins/workspace/ScriptedPipeline/webapp/target/webapp.war   root@:172.31.3.241/var/lib/tomcat9/webapps/qaenv.war'
+script: 'scp /root/.jenkins/workspace/jenkins/target/hello-world-war-1.0.0.war   root@: 172.31.3.241/root/apache-tomcat-9.0.75/webapps/webapp.war'
 	}
     stage('Continuous Testing') 
 	{
