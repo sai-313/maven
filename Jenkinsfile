@@ -20,4 +20,4 @@ script: 'scp /root/home/.jenkins/workspace/ScriptedPipeline/webapp/target/webapp
 	{
 script: 'scp /root/home/.jenkins/workspace/ScriptedPipeline/webapp/target/webapp.war   root@:172.31.23.36/var/lib/tomcat9/webapps/qaenv.war'
 	}
-
+}
