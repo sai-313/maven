@@ -15,9 +15,9 @@ pipeline {
     stage('Tagging') {
       steps {
         script {
-          def tag = "v1.4" // Define the tag name you want to create
-          sh "git tag ${v1.4}"
-          sh "git push origin ${v1.4}"
+          def tag = "v1.0" // Define the tag name you want to create
+          sh "git tag ${v1.0}"
+          sh "git push origin ${v1.0}"
         }
       }
     }
