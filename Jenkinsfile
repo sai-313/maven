@@ -11,7 +11,7 @@ node('built-in')
 	stage('Tagging') {
             steps {
                 script {
-                    def gitTag = "v1.0" // Specify the tag name here
+                    def gitTag = "v1.5" // Specify the tag name here
                     sh "git tag ${gitTag}"
                     sh "git push origin ${gitTag}"
                 }
