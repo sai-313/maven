@@ -1,14 +1,17 @@
-node {
-    stage ("checkout") {
-        checkout scm
-    }
-    stage("test") {
-        sh('bin/run_all_tests.sh')
-    }
-    def tag = sh(returnStdout: true, script: "git tag --contains | head -1").trim()
-    if (tag) {
-        stage("deploy") {
-            sh('bin/build_and_publish.sh')
+pipeline {
+    agent any
+
+    stages {
+        stage('Git Tagging') {
+            steps {
+                script {
+                    def tagName = "v1.8" // Set your desired tag name here
+
+                    sh "git tag ${tagName}" // Creates the Git tag
+                    sh "git push origin ${tagName}" // Pushes the tag to the remote repository
+                }
+            }
         }
+        // Other stages in your pipeline...
     }
 }
