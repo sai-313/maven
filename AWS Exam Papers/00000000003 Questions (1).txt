@@ -1,0 +1,822 @@
+
+
+
+
+
+Question 1: 
+Which Amazon EC2 Reserved Instance type enables you to match your capacity reservation to predictable recurring dates and times?
+•	 
+Convertible RI
+•	 
+Standard RI
+•	 
+Customized RI
+•	 
+Scheduled RI
+                  
+
+
+
+Question 2: 
+Which of the options below are recommendations in the cost optimization pillar of the well-architected framework? (Select TWO.)
+•	 
+Analyze and attribute expenditure
+                  
+•	 
+Adopt a capital expenditure model   
+•	 
+Start spending money on data center operations   
+•	 
+Manage your services independently
+•	 
+Adopt a consumption model
+
+
+
+                  
+Question 3: 
+Which service allows an organization to view operational data from multiple AWS services through a unified user interface and automate operational tasks?
+•	 
+Amazon CloudWatch
+•	 
+AWS Systems Manager
+                  
+•	 
+AWS Config
+•	 
+AWS OpsWorks
+
+
+Question 4: 
+Which statement best describes elasticity in the cloud?
+•	 
+The ability for a system to recover from the failure of a single component   
+•	 
+A flexible model of code development that results in faster deployment times   
+•	 
+A pricing model that allows upfront payments and term commitments to reduce cost   
+•	 
+The ability to scale resources up or down and only pay for what you use   
+                  
+Question 5: 
+Which pricing options are available when using Amazon EC2 Reserved Instances? (Select TWO.)
+•	 
+Mainly upfront
+•	 
+Capacity upfront
+•	 
+Partial upfront
+                  
+•	 
+Enterprise upfront
+•	 
+All upfront
+                  
+Question 6: 
+Which of the options below are recommendations in the security pillar of the well-architected framework? (Select TWO.)
+•	 
+Apply security at the application layer
+•	 
+Automate security best practices
+                  
+•	 
+Protect data when it is at rest only
+•	 
+Enable traceability
+                  
+•	 
+Expect to be secure
+
+
+
+Question 7: 
+Which AWS service does API Gateway integrate with to enable users from around the world to achieve the lowest possible latency for API requests and responses?   
+•	 
+AWS Direct Connect
+•	 
+Amazon S3 Transfer Acceleration
+•	 
+Amazon CloudFront
+                  
+•	 
+AWS Lambda
+
+
+
+Question 8: 
+What are the benefits of using reserved instances? (Select TWO.)
+•	 
+Uses dedicated hardware
+•	 
+Reserve capacity
+                  
+•	 
+More flexibility
+•	 
+Reduced cost
+                  
+•	 
+High availability
+
+
+
+
+
+Question 9: 
+An Amazon EC2 instance running the Amazon Linux 2 AMI is billed in what increment?
+•	 
+Per GB
+•	 
+Per hour
+•	 
+Per CPU
+•	 
+Per second
+
+
+                  
+Question 10: 
+Which Amazon EC2 pricing model is the most cost-effective for an always-up, right-sized database server running a project that will last 1 year?
+•	 
+On-Demand Instances
+•	 
+Spot Instances
+•	 
+Convertible Reserved Instances
+•	 
+Standard Reserved Instances
+                  
+Question 11: 
+What technology enables compute capacity to adjust as loads change?
+•	 
+Automatic failover
+•	 
+Auto Scaling
+                  
+•	 
+Load balancing
+•	 
+Round robin
+Question 12: 
+Which database allows you to scale at the push of a button without incurring any downtime?
+•	 
+Amazon RedShift
+•	 
+Amazon RDS
+•	 
+Amazon DynamoDB
+                  
+•	 
+Amazon EMR
+
+
+
+Question 13: 
+Which IAM entity can be used for assigning permissions to AWS services?
+•	 
+Security Token Service (STS)
+•	 
+IAM Role
+                  
+•	 
+IAM Access Key ID and Secret Access Key
+•	 
+IAM Policy
+
+
+Question 14: 
+How can a company separate costs for storage, Amazon EC2, Amazon S3, and other AWS services by department?
+•	 
+Create a separate VPC for each department
+•	 
+Add department-speciﬁc tags to each resource
+                  
+•	 
+Create a separate AWS account for each department
+•	 
+Use AWS Organizations
+
+
+Question 15: 
+You have been running an on-demand Amazon EC2 instance running Linux for 4hrs, 5 minutes and 6 seconds. How much time will you be billed for?
+•	 
+4hrs
+•	 
+4hrs, 5mins, and 6 seconds
+                  
+•	 
+5hrs
+•	 
+4hrs, 6mins
+
+Question 16: 
+Which service can an organization use to track API activity within their account?
+•	 
+Amazon CloudWatch
+•	 
+AWS CloudHSM
+•	 
+AWS IAM
+•	 
+AWS CloudTrail
+                  
+
+Question 17: 
+Which AWS database service provides a fully managed data warehouse that can be analyzed using SQL tools and business intelligence tools?   
+•	 
+Amazon RedShift
+                  
+•	 
+Amazon DynamoDB   
+•	 
+Amazon RDS
+•	 
+Amazon ElastiCache
+
+Question 18: 
+Under the AWS shared responsibility model, which of the following is an example of security in the AWS Cloud?
+•	 
+Physical security
+•	 
+Global infrastructure
+•	 
+Managing edge locations
+•	 
+Firewall conﬁguration
+                  
+Question 19: 
+What are Edge locations used for?
+•	 
+They are used by CloudFront for caching content
+                  
+•	 
+They are used for terminating VPN connections
+•	 
+They are used by regions for inter-region connectivity   
+•	 
+They are the public-facing APIs for Amazon S3   
+Question 20: 
+What is a specific benefit of an Enterprise Support plan?
+•	 
+Included AWS Solutions Architect
+•	 
+Included Technical Support Manager
+•	 
+Included Cloud Support Associate
+•	 
+Included Technical Account Manager
+                  
+Question 21: 
+Which IAM entity is associated with an access key ID and secret access key?
+•	 
+IAM Group
+•	 
+IAM Role
+•	 
+IAM Policy
+•	 
+IAM User
+                  
+Question 22: 
+Under the AWS shared responsibility model what is AWS responsible for? (Select TWO.)
+•	 
+Patch management of operating systems
+•	 
+Encryption of customer data
+•	 
+Physical security of the data center
+                  
+•	 
+Replacement and disposal of disk drives
+                  
+•	 
+Configuration of security groups
+Question 23: 
+Which service can be used to easily create multiple accounts?
+•	 
+
+Amazon Connect
+•	 
+AWS Organizations
+                  
+•	 
+AWS CloudFormation
+•	 
+AWS IAM
+Question 24: 
+How can an organization track resource inventory and configuration history for the purpose of security and regulatory compliance?
+•	 
+Run a report with AWS Artifact
+•	 
+Create an Amazon CloudTrail trail
+•	 
+Configure AWS Config with the resource types
+                  
+•	 
+Implement Amazon GuardDuty
+Question 25: 
+When using Amazon IAM, what authentication methods are available to use? (Select TWO.)
+•	 
+AES 256
+•	 
+Server certificates
+                  
+•	 
+Client certificates   
+•	 
+Access keys
+                  
+•	 
+AWS KMS
+
+Question 26: 
+What is a benefit of moving an on-premises database to Amazon Relational Database Service (RDS)?
+•	 
+There is no database administration required
+•	 
+You can run any database engine
+•	 
+There is no need to manage operating systems
+                  
+•	 
+You can scale vertically without downtime
+Question 27: 
+Which AWS support plan comes with a Technical Account Manager (TAM)?
+•	 
+Developer
+•	 
+Enterprise
+                  
+•	 
+Basic
+•	 
+Business
+Question 28: 
+Which AWS service provides on-demand downloads of AWS security and compliance reports?
+•	 
+AWS Trusted Advisor
+•	 
+Amazon Inspector
+•	 
+AWS Artifact
+                  
+•	 
+AWS Directory Service
+Question 29: 
+Which of the below is a fully managed Amazon search service based on open source software?
+•	 
+Amazon CloudSearch
+•	 
+AWS Elastic Beanstalk
+•	 
+Amazon Elasticsearch
+                  
+•	 
+AWS OpsWorks
+
+Question 30: 
+Which of the below is an example of an architectural benefit of moving to the cloud?
+•	 
+Proprietary hardware
+•	 
+Elasticity
+                  
+•	 
+Monolithic services
+•	 
+Vertical scalability
+Question 31: 
+Which service provides a way to convert video and audio files from their source format into versions that will playback on devices like smartphones, tablets and PCs?
+•	 
+Amazon Comprehend
+•	 
+Amazon Rekognition
+•	 
+AWS Glue
+•	 
+Amazon Elastic Transcoder
+                  
+Question 32: 
+You are concerned that you may be getting close to some of the default service limits for several AWS services. What AWS tool can be used to display current usage and limits?   
+•	 
+AWS Personal Health Dashboard
+•	 
+AWS Systems Manager
+•	 
+AWS Trusted Advisor
+                  
+•	 
+AWS CloudWatch   
+
+Question 33: 
+To ensure the security of your AWS account, what are two AWS best practices for managing access keys? (Select TWO.)
+•	 
+Don’t create any access keys, use IAM roles instead   
+•	 
+Use MFA for access keys
+•	 
+Where possible, use IAM roles with temporary security credentials   
+                  
+•	 
+Don’t generate an access key for the root account user   
+                  
+•	 
+Rotate access keys daily
+Question 34: 
+Which feature enables fast, easy, and secure transfers of files over long distances between a client and an Amazon S3 bucket?
+•	 
+Multipart Upload
+•	 
+S3 Static Websites   
+•	 
+S3 Copy
+•	 
+S3 Transfer Acceleration
+                  
+
+Question 35: 
+Which service can be used to cost-effectively move exabytes of data into AWS?
+•	 
+S3 Cross-Region Replication (CRR)
+•	 
+AWS Snowmobile
+                  
+•	 
+S3 Transfer Acceleration
+•	 
+AWS Snowball
+Question 36: 
+When using AWS Organizations with consolidated billing what are two valid best practices? (Select TWO.)
+•	 
+Always enable multi-factor authentication (MFA) on the root account   
+                  
+•	 
+The paying account should be used for billing purposes only   
+                  
+•	 
+Always use a straightforward password on the root account   
+•	 
+Use the paying account for deploying resources   
+•	 
+Never exceed the limit of 20 linked accounts   
+Question 37: 
+You need to run a production process that will use several EC2 instances and run constantly on an ongoing basis. The process cannot be interrupted or restarted without issue. What EC2 pricing model would be best for this workload?
+•	 
+Flexible instances
+•	 
+On-demand instances
+•	 
+Reserved instances
+                  
+•	 
+Spot instances
+Question 38: 
+What are the benefits of using Amazon Rekognition with image files?
+•	 
+Can help with image compression
+•	 
+Can be used to transcode audio
+•	 
+Can be used to identify objects in an image
+                  
+•	 
+Can be used to resize images
+Question 39: 
+Which AWS service lets you use Chef and Puppet to automate how servers are configured, deployed, and managed across your Amazon EC2 instances or on-premises compute environments?
+•	 
+AWS OpsWorks
+                  
+•	 
+AWS Systems Manager
+•	 
+AWS Elastic Beanstalk
+•	 
+AWS CloudFormation
+
+Question 40: 
+Which AWS tools can be used for automation? (Select TWO.)
+•	 
+Amazon Elastic File System (EFS)
+•	 
+AWS CloudFormation
+                  
+•	 
+Elastic Load Balancing
+•	 
+AWS Lambda
+•	 
+AWS Elastic Beanstalk
+                  
+Question 41: 
+Which AWS services can be used as infrastructure automation tools? (Select TWO.)
+•	 
+AWS CloudFormation
+                  
+•	 
+Amazon CloudFront
+•	 
+AWS OpsWorks
+                  
+•	 
+AWS Batch
+•	 
+Amazon QuickSight
+Question 42: 
+Which service can be used to create sophisticated, interactive graph applications?
+•	 
+Amazon Neptune
+                  
+•	 
+Amazon Athena   
+•	 
+AWS X-Ray
+•	 
+Amazon RedShift   
+Question 43: 
+Which AWS service is known as a "serverless" service and runs code as functions triggered by events?
+•	 
+Amazon ECS
+•	 
+Amazon CodeDeploy
+•	 
+AWS Lambda
+                  
+•	 
+Amazon Cognito
+
+Question 44: 
+How does the consolidated billing feature of AWS Organizations treat Reserved Instances that were purchased by another account in the organization?
+•	 
+AWS Organizations does not support any volume or reserved instance benefits across accounts, it is just a method of aggregating bills   
+•	 
+All accounts in the organization are treated as one account so any account can receive the hourly cost benefit   
+                  
+•	 
+Only the master account can benefit from the hourly cost benefit of the reserved instances   
+•	 
+All accounts in the organization are treated as one account for volume discounts but not for reserved instance   
+Question 45: 
+Which IAM entity can be used for assigning permissions to multiple users?
+•	 
+IAM Role
+•	 
+IAM password policy
+•	 
+IAM User
+•	 
+IAM Group
+                  
+
+Question 46: 
+Which of the options below are recommendations in the performance efficiency pillar of the well-architected framework? (Select TWO.)
+•	 
+Go global in days
+•	 
+Use serverless architectures
+                  
+•	 
+Mechanical complexity
+•	 
+Rarely experiment
+•	 
+Democratize advanced technologies
+                  
+Question 47: 
+Which of the following statements are correct about the benefits of AWS Direct Connect? (Select TWO.)
+•	 
+Quick to implement
+•	 
+Increased reliability (predictable performance)   
+                  
+•	 
+Uses redundant paths across the Internet
+•	 
+Lower cost than a VPN
+•	 
+Increased bandwidth (predictable bandwidth)   
+                  
+
+Question 48: 
+Which descriptions are correct regarding cloud deployment models? (Select TWO.)
+•	 
+With the hybrid cloud, multiple private clouds are connected   
+•	 
+With the public cloud the consumer organization typically incurs OPEX costs for usage   
+                  
+•	 
+With the private cloud the consumer organization typically incurs OPEX costs for usage   
+•	 
+With the public cloud the consumer organization typically owns and manages the infrastructure   
+•	 
+With the private cloud the consumer organization typically owns and manages the infrastructure   
+                  
+Question 49: 
+What are the advantages of Availability Zones? (Select TWO.)
+•	 
+They allow regional disaster recovery
+•	 
+They enable the caching of data for faster delivery to end users   
+•	 
+They provide fault isolation
+                  
+•	 
+They are connected by low-latency network connections
+                  
+•	 
+They enable you to connect your on-premises networks to AWS to form a hybrid cloud   
+Question 50: 
+What is the best way to apply an organizational system to EC2 instances so they can be identified by descriptors such as purpose or department?
+•	 
+Use the instance meta-data
+•	 
+Apply tags
+                  
+•	 
+Use descriptive hostnames
+•	 
+Organize the instances into separate subnets   
+Question 51: 
+Which service provides the ability to simply upload applications and have AWS handle the deployment details of capacity provisioning, load balancing, auto-scaling, and application health monitoring?
+•	 
+Amazon EC2 Auto Scaling
+•	 
+AWS OpsWorks
+•	 
+Amazon EC2
+•	 
+AWS Elastic Beanstalk
+                  
+Question 52: 
+How does Amazon EC2 Auto Scaling help with resiliency?
+•	 
+By changing instance types to increase capacity
+•	 
+By automating the failover of applications
+•	 
+By launching and terminating instances as needed
+                  
+•	 
+By distributing connections to EC2 instances
+Question 53: 
+What tool provides real time guidance to help you provision your resources following best practices in the areas of cost optimization, performance, security and fault tolerance?
+•	 
+AWS IAM
+•	 
+AWS Personal Health Dashboard
+•	 
+AWS Inspector
+•	 
+AWS Trusted Advisor
+                  
+Question 54: 
+To gain greater discounts, which services can be reserved? (Select TWO.)
+•	 
+AWS Lambda
+•	 
+Amazon RedShift
+                  
+•	 
+Amazon DynamoDB
+                  
+•	 
+Amazon CloudWatch
+•	 
+Amazon S3
+
+Question 55: 
+What is the best way for an organization to transfer hundreds of terabytes of data from their on-premise data center into Amazon S3 with limited bandwidth available?
+•	 
+Use S3 Transfer Acceleration
+•	 
+Use Amazon CloudFront
+•	 
+Use AWS Snowball
+                  
+•	 
+Apply compression before uploading
+Question 56: 
+Which statement best describes Amazon Route 53?
+•	 
+Amazon Route 53 is a service that enables routing within VPCs in an account   
+•	 
+Amazon Route 53 enables hybrid cloud models by extending an organization's on-premise networks into the AWS cloud   
+•	 
+Amazon Route 53 is a service for distributing incoming connections between a fleet of registered EC2 instances   
+•	 
+Amazon Route 53 is a highly available and scalable Domain Name System (DNS) service   
+                  
+Question 57: 
+What are the charges for using Amazon Glacier? (Select TWO.)
+•	 
+Data storage
+                  
+•	 
+Data transferred into Glacier
+•	 
+Enhanced networking
+•	 
+Retrieval requests
+                  
+•	 
+Number of Availability Zones
+Question 58: 
+Your CTO wants to move to cloud. What cost advantages are there to moving to cloud?
+•	 
+You provision only what you need and adjust to peak load
+                  
+•	 
+You don’t need to pay for application licensing
+•	 
+You can reduce your marketing costs
+•	 
+You get free data transfer into and out of the cloud
+Question 59: 
+Which of the options below are recommendations in the reliability pillar of the well-architected framework? (Select TWO.)
+•	 
+Manage change in automation
+                  
+•	 
+Attempt to accurately estimate capacity requirements   
+•	 
+Automatically recover from failure
+                  
+•	 
+Scale vertically to increase aggregate system availability
+•	 
+Use ad-hoc recovery procedures
+
+Question 60: 
+Which AWS Support plan provides access to architectural and operational reviews, as well as 24/7 access to Cloud Support Engineers through email, online chat, and phone?
+•	 
+Enterprise
+                  
+•	 
+Basic
+•	 
+Developer
+•	 
+Business
+Question 61: 
+Which of the following represent economic advantages of moving to the AWS cloud? (Select TWO.)
+•	 
+Increase time to market for new applications
+•	 
+Reduce the need to manage applications   
+•	 
+Reduce the need to manage infrastructure
+                  
+•	 
+Reduce the rate of change
+•	 
+Increase efficiencies through automation
+                  
+
+Question 62: 
+Which AWS services are associated with Edge Locations? (Select TWO.)
+•	 
+AWS Config
+•	 
+Amazon EBS
+•	 
+AWS Shield
+                  
+•	 
+AWS Direct Connect
+•	 
+Amazon CloudFront
+                  
+
+Question 63: 
+Which authentication method is used to authenticate programmatic calls to AWS services?
+•	 
+Server certificate
+•	 
+Console password
+•	 
+Key pair
+•	 
+Access keys
+                  
+Question 64: 
+A security operations engineer needs to implement threat detection and monitoring for malicious or unauthorized behavior. Which service should be used?
+•	 
+AWS KMS
+•	 
+Amazon GuardDuty
+                  
+•	 
+AWS CloudHSM
+•	 
+AWS Shield
+Question 65: 
+Which of the below AWS services supports automated backups as a default configuration?
+•	 
+Amazon EBS
+•	 
+Amazon EC2
+•	 
+Amazon RDS
+                  
+•	 
+Amazon S3
+

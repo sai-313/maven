@@ -1,0 +1,63 @@
+production server 
+
+
+ 1  sudo apt-get update
+    2  sudo apt-get install -y tomcat9
+    3  sudo apt-get install -y tomcat9-admin
+    4  cd /etc/tomcat9/
+    5  ls
+    6  sudo vim tomcat-users.xml 
+    7  sudo service tomcat9 restart
+    8  vim server.xml 
+    9  sudo service tomcat9 restart
+   10  sudo service tomcat9 start
+   11  cd
+   12  cd /root/.jenkins/workspace
+   13  history
+
+
+testing server 
+
+
+ 1  sudo apt-get update
+    2  sudo apt-get install -y tomcat9
+    3  sudo apt-get install -y tomcat9-admin
+    4  cd /etc/tomcat9/
+    5  ls
+    6  sudo vim tomcat-users.xml 
+    7  sudo service tomcat9 restart
+    8  sudo service tomcat9 start
+    9  vim server.xml 
+   10  sudo service tomcat9 restart
+   11  sudo service tomcat9 start
+   12  cd
+   13  cd /root/.jenkins/workspace/Dev/webapp
+   14  cd /etc/tomcat9
+   15  ls
+   16  vim tomcat-users.xml 
+   17  sudo service tomcat9 restart
+   18  sudo service tomcat9 start
+   19  cd
+   20  cd /root/.jenkins/workspace/Dev/webapp
+   21  cd /root/.jenkins/workspace
+   22  cd /root/.jenkins/workspace/Dev/webapp
+   23  cd /root/.jenkins
+   24  ls
+   25  history
+
+
+dev server
+
+   1  cd /root/.jenkins/workspace/jenkins/webapp/target/webapp.war
+    2  ls
+    3  cd //root/.jenkins/workspace/jenkins/webapp/target/webapp.war
+    4  cd /root/.jenkins/workspace/Dev/webapp/target/webapp.war
+    5  cd /root/.jenkins/workspace/
+    6  ls
+    7  cd Dev/
+    8  ls
+    9  cd webapp/
+   10  ls
+   11  cd target/
+   12  ls
+   13  history

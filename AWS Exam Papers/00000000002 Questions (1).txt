@@ -1,0 +1,856 @@
+				Write a detailed explanation on the below topics
+
+				5 Pillar Architecture - Design principles - Respective Services
+				S3 Table with all combinations
+				Snow family table 
+				Types of cloud computing IAAS , PAAS and SAAS
+				Shared responsibility model diagram : Customer Vs AWS
+				Six advantages and Five characterics cloud computing 
+				Shared Responsibility Model for IAM
+				Shared Responsibility Model for EC2
+				Price Comparison , Example chart for EC2 
+
+
+				
+
+
+
+
+Question 1: 
+Which items should be included in a TCO analysis comparing on-premise to AWS Cloud? (Select TWO.)
+•	 
+Data center security
+                                         
+•	 
+Application licensing
+ 
+Operating system patching
+•	 
+Compute hardware
+                                         
+•	 
+Firewall management
+Question 2:                                           
+Which AWS service can be used to host a static website?
+•	 
+AWS CloudFormation
+•	 
+Amazon EBS
+•	 
+Amazon S3
+                                         
+•	 
+Amazon EFS
+Question 3: 
+Which AWS dashboard displays relevant and timely information to help users manage events in progress, and provides proactive notifications to help plan for scheduled activities?
+•	 
+AWS Personal Health Dashboard
+                                         
+•	 
+Amazon CloudWatch dashboard
+•	 
+AWS Service Health Dashboard
+•	 
+AWS Trusted Advisor dashboard
+
+
+Question 4: 
+An architect wants to find a tool for consistently deploying the same resources through a templated configuration. Which AWS service can be used?   
+•	 
+AWS CodeDeploy
+•	 
+AWS CodeBuild
+•	 
+AWS Elastic Beanstalk
+•	 
+AWS CloudFormation
+                                         
+
+Question 5: 
+Which AWS service can be used to run Docker containers?
+•	 
+Amazon AMI
+•	 
+Amazon ECS
+                                         
+•	 
+Amazon ECR
+•	 
+AWS Lambda
+Question 6: 
+A company needs a consistent and dedicated connection between AWS resources and an on-premise system.
+Which AWS service can fulﬁl this requirement?
+•	 
+Amazon Connect
+•	 
+AWS Direct Connect
+                                         
+•	 
+AWS DataSync
+•	 
+AWS Managed VPN
+
+Question 7: 
+How can an organization assess application for vulnerabilities and deviations from best practice?   
+•	 
+Use AWS WAF
+•	 
+Use AWS Inspector
+                                         
+•	 
+Use AWS Artifact
+•	 
+Use AWS Shield
+Question 8: 
+What can a Cloud Practitioner use the AWS Total Cost of Ownership (TCO) Calculator for?
+•	 
+Generate reports that break down AWS Cloud compute costs by duration, resource, or tags
+•	 
+Enable billing alerts to monitor actual AWS costs compared to estimated costs
+•	 
+Estimate savings when comparing the AWS Cloud to an on-premises environment
+                                         
+•	 
+Estimate a monthly bill for the AWS Cloud resources that will be used
+Question 9: 
+Which of the following services does Amazon Route 53 provide? (Select TWO.)
+•	 
+Load balancing
+•	 
+Domain Name Service (DNS)
+                                         
+•	 
+Auto Scaling
+•	 
+Route tables
+•	 
+Domain registration
+                                         
+
+Question 10: 
+Which statements are true about Amazon EBS volumes? (Select TWO.)
+•	 
+EBS volume data is ephemeral and is lost when an instance is stopped   
+•	 
+EBS volumes must be in the same AZ as the instances they are attached to   
+                                         
+•	 
+You can attach multiple EBS volumes to an instance   
+                                         
+•	 
+You can attach EBS volumes to multiple instances
+•	 
+EBS volumes are object storage
+Question 11: 
+Using AWS terminology, which items can be created in an Amazon S3 bucket? (Select TWO.)
+•	 
+Folders
+                                         
+•	 
+Files
+•	 
+Tables
+•	 
+Queues
+•	 
+Objects
+                                         
+
+Question 12: 
+Which AWS service is used to send both text and email messages from distributed applications?
+•	 
+Amazon Simple Notiﬁcation Service (Amazon SNS)
+                                         
+•	 
+Amazon Simple Email Service (Amazon SES)
+•	 
+Amazon Simple Workflow Service (Amazon SWF)
+•	 
+Amazon Simple Queue Service (Amazon SQS)
+
+Question 13: 
+At what level is a Network ACL applied?
+•	 
+Instance level
+•	 
+Availability Zone level
+•	 
+Subnet level
+                                         
+•	 
+Region level
+Question 14: 
+Which services are involved with security? (Select TWO.)
+•	 
+AWS CloudHSM
+                                         
+•	 
+Amazon ELB
+•	 
+AWS KMS
+                                         
+•	 
+AWS DMS
+•	 
+AWS SMS
+
+
+
+Question 15: 
+Which configuration changes are associated with scaling horizontally? (Select TWO.)
+•	 
+Changing the DB instance class on an RDS DB   
+•	 
+Changing an EC2 instance to a type that has more CPU and RAM   
+•	 
+Adding a larger capacity hard drive to a server   
+•	 
+Adding additional EC2 instances through Auto Scaling   
+                                         
+•	 
+Adding additional hard drives to a storage array   
+                         
+                
+Question 16: 
+Which AWS network element allows you to assign a static IPv4 address to an EC2 instance?
+•	 
+Static IP
+•	 
+Elastic IP
+                                         
+•	 
+Public IP
+•	 
+Dynamic IP
+
+
+Question 17: 
+Which services are managed at a regional (rather than global) level? (Select TWO.)
+•	 
+Amazon Route 53
+•	 
+Amazon S3
+                                         
+•	 
+Amazon EC2
+                                         
+•	 
+Amazon CloudFront
+•	 
+AWS IAM
+Question 18: 
+A Cloud Practitioner wants to build an application stack that will be highly elastic. What AWS services can be used that don’t require you to make any capacity decisions upfront? (Select TWO.)
+•	 
+Amazon RDS
+•	 
+Amazon DynamoDB Provisioned mode
+•	 
+Amazon S3
+                                         
+•	 
+AWS Lambda
+                                         
+•	 
+Amazon EC2
+
+Question 19: 
+Which AWS service can be used to load data from Amazon S3, transform it, and move it to another destination?
+•	 
+Amazon EMR
+•	 
+AWS Glue
+                                         
+•	 
+Amazon RedShift
+•	 
+Amazon Kinesis
+Question 20: 
+Which benefits can a company immediately realize using the AWS Cloud? (Select TWO.)
+•	 
+No responsibility for security
+•	 
+User control of physical infrastructure
+•	 
+Variable expenses are replaced with capital expenses
+•	 
+Increased agility
+                                         
+•	 
+Capital expenses are replaced with variable expenses
+                                         
+Question 21: 
+A company is planning to migrate some resources into the cloud. What factors need to be considered when determining the cost of the AWS Cloud? (Select TWO.)
+•	 
+The number of servers migrated into EC2
+                                         
+•	 
+The amount of ingress data per month
+•	 
+The number of VPCs created
+•	 
+The number of IAM users created
+•	 
+The amount of egress data per month
+                                         
+Question 22: 
+Which of the following are AWS recommended best practices in relation to IAM? (Select TWO.)
+•	 
+Grant greatest privilege
+•	 
+Embed access keys in application code
+•	 
+Enable MFA for all users
+                                         
+•	 
+Assign permissions to users
+
+•	 
+Create individual IAM users
+                                         
+Question 23:                                           
+Which AWS service provides elastic web-scale cloud computing allowing you to deploy operating system instances?   
+•	 
+Amazon RDS
+•	 
+AWS Lambda
+•	 
+Amazon EC2
+                                         
+•	 
+Amazon EBS
+Question 24: 
+Which of the facts below are accurate in relation to AWS Regions? (Select TWO.)
+•	 
+Each region is designed to be completely isolated from the other Amazon Regions   
+                                         
+•	 
+Each region consists of 2 or more availability zones   
+                                         
+•	 
+Regions are Content Delivery Network (CDN) endpoints for CloudFront   
+•	 
+Each region consists of a collection of VPCs   
+•	 
+Regions have direct, low-latency, high throughput and redundant network connections between each other   
+Question 25: 
+How can a security compliance officer retrieve AWS compliance documentation such as a SOC 2 report?   
+•	 
+Using AWS Trusted Advisor
+•	 
+Using AWS Inspector
+•	 
+Using AWS Artifact
+                                         
+•	 
+Using the AWS Personal Health Dashboard
+Question 26: 
+Which AWS service protects against common exploits that could compromise application availability, compromise security or consume excessive resources?   
+•	 
+AWS WAF
+                                         
+•	 
+AWS Shield
+•	 
+Network ACL
+•	 
+Security Group
+
+Question 27: 
+Which AWS service helps customers meet corporate, contractual, and regulatory compliance requirements for data security by using dedicated hardware appliances within the AWS Cloud?
+•	 
+AWS Secrets Manager
+•	 
+AWS Directory Service
+•	 
+AWS Key Management Service (AWS KMS)
+•	 
+AWS CloudHSM
+                                         
+Question 28:                                           
+Which AWS hybrid storage service enables a user’s on-premises applications to seamlessly use AWS Cloud storage?
+•	 
+AWS Direct Connect
+•	 
+AWS Storage Gateway
+                                         
+•	 
+Amazon Connect
+•	 
+AWS Backup
+Question 29: 
+What are the benefits of using the AWS Managed Services? (Select TWO.)
+•	 
+Designed for small businesses
+•	 
+Support for all AWS services
+•	 
+Baseline integration with ITSM tools
+                                         
+•	 
+Alignment with ITIL processes
+                                         
+•	 
+Managed applications so you can focus on infrastructure   
+Question 30: 
+Which cloud computing model gives the IT department the highest level of flexibility and management control?
+•	 
+Software as a Service (SaaS)
+•	 
+On-premises cloud
+•	 
+Platform as a Service (PaaS)
+•	 
+Infrastructure as a Service (IaaS)
+                                         
+
+Question 31: 
+What type of database is fully managed and can be scaled without incurring downtime?
+•	 
+Amazon DynamoDB
+                                         
+•	 
+Amazon RDS
+•	 
+Amazon ElastiCache
+•	 
+Amazon S3
+Question 32: 
+Which AWS service provides preconfigured virtual private servers (instances) that include everything required to deploy an application or create a database?
+•	 
+Amazon ECS
+•	 
+AWS Lambda
+•	 
+Amazon Lightsail
+                                         
+•	 
+AWS CloudFormation
+Question 33: 
+Which tool can be used to create and manage a selection of AWS services that are approved for use on AWS?
+•	 
+AWS Organizations
+•	 
+Amazon Cloud Directory
+•	 
+AWS Service Catalog
+                                         
+•	 
+AWS OpsWorks
+Question 34:                                           
+Which AWS services can be utilized at no cost? (Select TWO.)
+•	 
+Amazon CloudFront
+•	 
+Amazon VPC
+                                         
+•	 
+Amazon S3
+•	 
+Amazon RedShift
+•	 
+Identity and Access Management (IAM)
+                                         
+
+Question 35: 
+
+A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in an Amazon VPC.
+Which service should be used to deploy the application?
+•	 
+Amazon LightSail
+•	 
+AWS CloudFormation
+•	 
+Amazon EC2
+•	 
+AWS Elastic Beanstalk
+                                         
+
+Question 36: 
+
+What are the names of two types of AWS Storage Gateway? (Select TWO.)
+•	 
+Cached Gateway
+•	 
+Block Gateway
+•	 
+Gateway Virtual Tape Library
+                                         
+•	 
+File Gateway
+                                         
+•	 
+S3 Gateway
+
+Question 37: 
+You need to ensure you have the right amount of compute available to service demand. Which AWS service can automatically scale the number of EC2 instances for your application?
+•	 
+Amazon EC2 Auto Scaling
+                                         
+•	 
+Amazon RedShift
+•	 
+Amazon ElastiCache
+•	 
+Amazon Elastic Load Balancer
+Question 38: 
+Which of the following are valid types of Reserved Instance? (Select TWO.)
+•	 
+Long-Term RI
+•	 
+Special RI
+•	 
+Convertible RI
+                                         
+•	 
+Scheduled RI
+                                         
+•	 
+Discounted RI
+Question 39: 
+How should an organization deploy an application running on multiple EC2 instances to ensure that a power failure does not cause an application outage?
+•	 
+Launch the EC2 instances in separate regions
+•	 
+Launch the EC2 instances into different VPCs
+•	 
+Launch the EC2 instances into different Availability Zones
+                                         
+•	 
+Launch the EC2 instances into Edge Locations
+Question 40:                                           
+A user needs an automated security assessment report that will identify unintended network access to Amazon EC2 instances and vulnerabilities on those instances.
+Which AWS service will provide this assessment report?
+•	 
+Amazon Inspector
+                                         
+•	 
+Amazon Macie
+•	 
+EC2 security groups
+•	 
+AWS Conﬁg
+Question 41: 
+Which AWS service or feature allows a company to receive a single monthly AWS bill when using multiple AWS accounts?
+•	 
+Amazon Cloud Directory
+•	 
+Consolidated billing
+                                         
+•	 
+AWS Cost Explorer
+•	 
+AWS Cost and Usage report
+Question 42: 
+What features does Amazon RDS provide to deliver scalability, availability and durability? (Select TWO.)
+•	 
+DB mirroring
+•	 
+Multi-AZ
+                                         
+•	 
+Read Replicas
+                                         
+•	 
+Multi-Subnet
+•	 
+Clustering
+
+Question 43: 
+Which configuration changes are associated with scaling vertically? (Select TWO.)
+•	 
+Adding a larger capacity hard drive to a server   
+                                         
+•	 
+Adding additional hard drives to a storage array   
+•	 
+Adding additional EC2 instances through Auto Scaling   
+•	 
+Changing an EC2 instance to a type that has more CPU and RAM   
+                                         
+•	 
+Distributed processing
+
+Question 44: 
+Which service provides visibility into user activity by recording actions taken on your account?   
+•	 
+Amazon CloudFormation
+•	 
+Amazon CloudTrail
+                                         
+•	 
+Amazon CloudHSM
+•	 
+Amazon CloudWatch   
+Question 45: 
+You need to implement a hosted queue for storing messages in transit between application servers. Which service should you use?
+•	 
+Amazon DynamoDB
+•	 
+Amazon SWF
+•	 
+Amazon SQS
+                                         
+•	 
+
+Question 46: 
+What are two ways an AWS customer can reduce their monthly spend? (Select TWO.)
+•	 
+Use more power efficient instance types
+•	 
+Reserve capacity where suitable
+                                         
+•	 
+Be efficient with usage of Security Groups
+•	 
+Reduce the amount of data ingress charges
+•	 
+Turn off resources that are not being used
+                                         
+Question 47: 
+Which of the following best describes an Availability Zone in the AWS Cloud?
+•	 
+A completely isolated geographic location
+•	 
+One or more edge locations based around the world
+•	 
+One or more physical data centers
+                                         
+•	 
+A subnet for deploying resources into
+
+
+
+
+
+
+Question 48:                                           
+A company has an application with users in both Australia and Germany. All the company infrastructure is currently provisioned in the Europe (Frankfurt) Region, and Australian users are experiencing high latency.
+What should the company do to reduce latency?
+•	 
+Implement AWS Direct Connect for users in Australia
+•	 
+Provision resources in the Asia Pacific (Sydney) Region in Australia
+                                         
+•	 
+Use AWS Transit Gateway to quickly route users from Australia to the application
+•	 
+Launch additional Amazon EC2 instances in Frankfurt to handle the demand
+Question 49:                                           
+Which AWS service should a Cloud Practitioner use to automate conﬁguration management using Puppet?
+•	 
+AWS CloudFormation
+•	 
+AWS Systems Manager
+•	 
+AWS Conﬁg
+•	 
+AWS OpsWorks
+                                         
+Question 50:                                           
+Which of the statements below is                                            in relation to Consolidated Billing? (Select TWO.)
+•	 
+You pay a fee per linked account
+•	 
+You receive a single bill for multiple accounts
+                                         
+•	 
+You can combine usage and share volume pricing discounts
+                                         
+•	 
+You are charged a fee per user
+•	 
+You receive one bill per AWS account
+Question 51: 
+Amazon S3 is typically used for which of the following use cases? (Select TWO.)
+•	 
+Host a static website
+                                         
+•	 
+Install an operating system
+•	 
+Media hosting
+                                         
+•	 
+In-memory data cache
+•	 
+Message queue
+Question 52: 
+How can you apply metadata to an EC2 instance that categorizes it according to its purpose, owner or environment?   
+•	 
+Hostname
+•	 
+Tags
+                                         
+•	 
+Labels
+•	 
+Stickers
+Question 53: 
+Which AWS support plans provide support via email, chat and phone? (Select TWO.)
+•	 
+Business
+                                         
+•	 
+Enterprise
+                                         
+•	 
+Developer
+•	 
+Basic
+•	 
+Global
+
+Question 54: 
+An application stores images which will be retrieved infrequently, but must be available for retrieval immediately. Which is the most cost-effective storage option that meets these requirements?
+•	 
+Amazon EFS
+•	 
+Amazon S3 Standard
+•	 
+Amazon Glacier with expedited retrievals   
+•	 
+Amazon S3 Standard-Infrequent Access   
+                                         
+
+Question 55: 
+Which AWS service gives you centralized control over the encryption keys used to protect your data?
+•	 
+Amazon EBS
+•	 
+AWS KMS
+                                         
+•	 
+AWS STS
+•	 
+AWS DMS
+Question 56: 
+To connect an on-premises network to an Amazon VPC using an Amazon Managed VPN connection, which components are required? (Select TWO.)
+•	 
+Virtual Private Gateway
+                                         
+•	 
+Direct Connect
+•	 
+NAT Instance
+•	 
+VPC Router
+•	 
+Customer Gateway
+                                         
+Question 57: 
+What are two ways of connecting to an Amazon VPC from an on-premise data center? (Select TWO.)
+•	 
+Internet Gateway
+•	 
+AWS VPN CloudHub
+                                         
+•	 
+VPC Peering
+•	 
+VPC Router
+•	 
+AWS Direct Connect
+                                         
+Question 58: 
+Which of the following security operations tasks must be performed by AWS customers? (Select TWO.)
+•	 
+Installing security updates on EC2 instances
+                                         
+•	 
+Issuing data center access keycards
+•	 
+Collecting syslog messages from physical firewalls
+•	 
+Installing security updates for server firmware   
+•	 
+Enabling multi-factor authentication (MFA) for privileged users   
+                                         
+Question 59: 
+Which of the following should be used to improve the security of access to the AWS Management Console? (Select TWO.)
+•	 
+AWS Multi-Factor Authentication (AWS MFA)
+                                         
+•	 
+AWS Certiﬁcate Manager
+•	 
+Security group rules
+•	 
+Strong password policies
+                                         
+•	 
+AWS Secrets Manager
+
+
+Question 60: 
+A new user is unable to access any AWS services, what is the most likely explanation?
+•	 
+By default new users are created without access to any AWS services   
+                                         
+•	 
+The default limit for user logons has been reached   
+•	 
+The user needs to login with a key pair
+•	 
+The services are currently unavailable
+Question 61: 
+An application has highly dynamic usage patterns. Which characteristics of the AWS Cloud make it cost-effective for this type of workload? (Select TWO.)
+•	 
+High availability
+•	 
+Elasticity
+                                         
+•	 
+Strict security
+•	 
+Pay-as-you-go pricing
+                                         
+•	 
+Reliability
+Question 62: 
+Which AWS construct provides you with your own dedicated virtual network in the cloud?
+•	 
+Amazon IAM
+•	 
+Amazon EC2
+•	 
+Amazon Workspaces
+•	 
+Amazon VPC
+                                         
+
+
+Question 63: 
+A manager needs to keep a check on his AWS spend. How can the manager setup alarms that notify him when his bill reaches a certain amount?
+•	 
+Using AWS Trusted Advisor
+•	 
+Using AWS CloudTrail
+•	 
+Using Amazon CloudWatch
+                                         
+•	 
+By notifying AWS support
+Question 64: 
+Which of the following compliance programs allows the AWS environment to process, maintain, and store protected health information?   
+•	 
+ISO 27001
+•	 
+SOC 1
+•	 
+HIPAA
+                                         
+•	 
+PCI DSS
+
+Question 65: 
+What is a Resource Group?
+•	 
+A collection of resources within a VPC
+•	 
+A collection of services within a category
+•	 
+A collection of resources that share one or more tags   
+                                         
+•	 
+A collection of services within a region
+

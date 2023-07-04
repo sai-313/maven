@@ -1,0 +1,488 @@
+ 
+Question 1                                         
+You are working on a distributed java application that will be storing messages in Amazon SQS. Some of these messages are greater than 256 KB. How can an Amazon SQS queue be created to manage messages with size greater than 256 KB?
+•	A. Create Amazon SQS queue using AWS SDK for Java to reference Amazon S3 buckets when message size exceeds 256 KB.                                         
+•	B. Create Amazon SQS queue using Amazon SQS console to reference Amazon S3 buckets when message size exceeds 256 KB.
+•	C. Create Amazon SQS queue using AWS CLI to reference Amazon S3 buckets when message size exceeds 256 KB.
+•	D. Create Amazon SQS queue using Amazon SQS HTTP API to reference Amazon S3 buckets when message size exceeds 256 KB.
+•	
+Question 2                                         
+A Developer is migrating an on-premises web application to the AWS Cloud. The application currently runs on a 32-processor server and stores session state in memory. On Friday afternoons the server runs at 75% CPU utilization, but only about 5% CPU utilization at other times.
+How should the Developer change to code to better take advantage of running in the cloud?
+ 
+ 
+ 
+•	A. Compress the session state data in memory.
+•	B. Store session state on EC2 instance Store.
+•	C. Encrypt the session state data in memory.
+•	D. Store session state in an ElastiCache cluster.                                         
+•	
+Question 3                                         
+An organization’s application needs to monitor application-specific events with a standard AWS service. The service should capture the number of logged-in users and trigger events accordingly. During peak times, monitoring frequency will occur every 10 seconds.
+What should be done to meet these requirements?
+ 
+ 
+ 
+•	A. Create an Amazon SNS notification.
+•	B. Create a standard resolution custom Amazon CloudWatch log.
+•	C. Create a high-resolution custom Amazon CloudWatch metric.                                         
+•	D. Create a custom Amazon CloudTrail log.
+•	
+Question 4                                         
+An online educational institute uses a three-tier web application & is using AWS X-Ray to trace data between various services. User A is experiencing latency issues using this application & the Operations team has asked you to gather all traces for User A. Which of the following needs to be enabled to get Filtered output for User A from all other traces?
+•	A. Trace ID
+•	B. Annotations                                         
+•	C. Segment ID
+•	D. Tracing header
+•	
+Question 5                                         
+A developer working on an AWS CodeBuild project wants to override a build command as part of a build run to test a change. The developer has access to run the builds but does not have access to the code and to edit the CodeBuild project.
+What process should the Developer use to override the build command?
+•	A. Update the buildspec.yml configuration file that is part of the source code and run a new build.
+•	B. Update the command in the Build Commands section during the build run in the AWS console.
+•	C. Run the start build AWS CLI command with buildspecOverride property set to the new buildspec.yml file.                                         
+•	D. Update the buildspec property in the StartBuild API to override the build command during build run.
+Question 6                                         
+You are working on a new project involving the creation of Lambda functions for a Serverless Web Application. A large team of developers will work on this project performing multiple changes to the Lambda function code. As the best practice, you have been asked to publish a version while creating a Lambda function or updating a function code. Which of the following is TRUE with regards to the published version of a Lambda Function?
+•	A. A published version is a snapshot of function code and has the same version number when a previous version is deleted & recreated.
+•	B. A published version is a snapshot of function code and has a unique Amazon Resource Name that can be updated using “UpdateFunctionCode.”
+•	C. A published version is a snapshot of function code and configuration that can be updated using the “Publish” parameter.
+•	D. A published version is a snapshot of function code and configuration that can't be changed.                                         
+
+Question 7                                         
+You are working on a mobile application that will be using AWS ElastiCache for caching application data to reduce latency & improve throughput. The management team has asked you to evaluate both in-memory cache supported by AWS ElastiCache engines – Memcached and Redis. Which of the following features are available only with Memcached which you should consider while developing the application? (Select Two)
+•	A. Simple caching model                                         
+•	B. Pub/Sub capability support.
+•	C. Multithreaded performance with utilization of multiple cores                                         
+•	D. Data replication to multiple AZ’s.Data persistence
+Question 8                                         
+A developer is building an application that needs access to an S3 bucket. An IAM role is created with the required permissions to access the S3 bucket. Which API call should the Developer use in the application so that the code can access to the S3 bucket?
+•	A. IAM: AccessRole
+•	B. STS: GetSessionToken
+•	C. IAM:GetRoleAccess
+•	D. STS:AssumeRole                                         
+Question 9                                         
+A developer has recently deployed an AWS Lambda function that computes a Fibonacci sequence using recursive Lambda invocations. A pre-defined AWS IAM policy is being used for this function, and only the required dependencies were packaged. A few days after deployment, the Lambda function is being throttled.
+What should the Developer have done to prevent this, according to best practices?
+•	A. Use more restrictive IAM policies.
+•	B. Avoid recursive Lambda invocations.                                         
+•	C. Request a concurrency service limit increase.
+•	D. Increase the memory allocation range.
+
+Question 10                                         
+A company is writing a Lambda function that will run in multiple stages, such a dev, test, and production. The function is dependent upon several external services, and it must call different endpoints for these services based on the function’s deployment stage.
+What Lambda feature will enable the developer to ensure that the code references the correct endpoints when running in each stage?
+•	A. Tagging
+•	B. Concurrency
+•	C. Aliases
+•	D. Environment variables                                         
+ 
+Question 11                                         
+You are using AWS SAM to define a Lambda function and configure CodeDeploy to manage deployment patterns. With the new Lambda function working as per expectation which of the following will shift traffic from the original Lambda function to the new Lambda function in the shortest time frame?
+•	A. Canary10Percent5Minutes                                         
+•	B. Linear10PercentEvery10Minutes
+•	C. Canary10Percent15Minutes
+•	D. Linear10PercentEvery5Minute
+Question 12                                         
+A Developer is migrating an on-premises application to the AWS Cloud. The application currently uses Microsoft SQL, encrypting some of the data using Transparent Data Encryption. Which service should the Developer use to minimize code changes?
+•	A. Amazon RDS                                         
+•	B. Amazon Aurora
+•	C. Amazon Redshift
+•	D. Amazon DynamoDB
+
+Question 13                                         
+A Web-application uses Amazon SQS to buffer messages processed by another application deployed in a fleet of Amazon EC2 instances. Application deployed on Amazon EC2 instances sends message confirmation to end-users. Due to the heavy load on Amazon EC2 instances, it takes a long time to process messages & users are receiving multiple messages. Which of the following changes can be done on the Amazon SQS queue to ensure users receive only a single message?
+•	A. Increase visibility timeout to 5 mins using ChangeMessageVisibility.                                         
+•	B. Increase visibility timeout to 5 mins using UpdateMessageVisibility.
+•	C. Decrease visibility timeout to 2 mins using UpdateMessageVisibility.
+•	D. Decrease visibility timeout to 2 mins using ChangeMessageVisibility.
+•	
+Question 14                                         
+A developer is using Amazon API Gateway as an HTTP proxy to a backend endpoint. There are three separate environments: Development, Testing, Production, and three corresponding stages in the API gateway.
+How should traffic be directed to different backend endpoints for each of these stages without creating a separate API for each?
+ 
+ 
+ 
+•	A. Add a model to the API and add a schema to differentiate different backend endpoints.
+•	B. Use stage variables and configure the stage variables in the HTTP integration Request of the API.                                         
+•	C. Use API Custom Authorizers to create an authorizer for each of the different stages.
+•	D. Update the Integration Response of the API to add different backend endpoints.  
+•	
+ 
+Question 15                                         
+An organization deployed its static website on Amazon S3. Now, the Developer has a requirement to serve dynamic content using a serverless solution. Which combination of services should be used to implement a serverless application for the dynamic content? (Select TWO)
+•	A. Amazon API Gateway                                         
+•	B. Amazon EC2
+•	C. AWS ECS
+•	D. AWS Lambda                                         
+•	E. Amazon kinesis
+Question 16                                         
+An application is publishing a custom CloudWatch metric any time an HTTP 504 error appears in the application error logs. These errors are being received intermittently. There is a CloudWatch Alarm for this metric, and the Developer would like the alarm to trigger ONLY if it breaches two evaluation periods or more.
+What should be done to meet these requirements?
+ 
+ 
+ 
+•	A. Update the CloudWatch Alarm to send a custom notification depending on results.
+•	B. Publish the value zero whenever there are no “HTTP 504” errors.
+•	C. Use high – resolution metrics to get data pushed to CloudWatch more frequently.
+•	D. The evaluation period and Data Points to Alarm should be set to 2 while creating this alarm.                                         
+Question 17                                         
+A Developer has been asked to create an AWS Elastic Beanstalk environment for a production web application that needs to handle thousands of requests. Currently, the dev environment is running on a t1.micro instance.
+What is the best way for the developer to provision a new production environment with a m4.large instance instead of a t1.micro?
+•	A. Use CloudFormation to migrate the Amazon EC2 instance type from t1.micro to m4.large.
+•	B. Create a new configuration file with the instance type as m4.large and reference this file when provisioning the new environment.                                         
+•	C. Provision a m4.large instance directly in the dev environment and deploy to the new production environment.
+•	D. Change the instance type value in the configurations file to m4.large by using the update autoscaling group CLI command.
+Question 18                                         
+An organization has an Amazon Aurora RDS instance that handles all of its AWS-based e-commerce activity. The application accessing the database needs to create large sales reports on an hourly basis, running 15 minutes after the hour. This reporting activity is slowing down the e-commerce application.
+Which combination of actions should be taken to reduce the impact on the main e-commerce application? Select 2 answers from the options given below.
+•	A. Point the reporting application to the read replica.                                         
+•	B. Migrate the data to a set of highly available Amazon EC2 instances.
+•	C. Use SQS Buffering to retrieve data for reports.
+•	D. Create a read replica of the database.                                         
+•	E. Create an SQS queue to implement SQS Buffering.
+
+Question 19                                         
+An organization is using AWS Elastic Beanstalk for a web application. The Developer needs to configure the Elastic Beanstalk environment with deployment methods to create new instances and deploy code to those instances.
+Which methods will deploy code ONLY to new instances? Choose 2 answers from the options given below.
+ 
+ 
+ 
+•	A. All at once deployment
+•	B. Immutable deployment                                         
+•	C. Rolling deployment
+•	D. Linear deployment
+•	E. Blue/Green deployment                                         
+•	
+Question 20                                         
+A developer is writing an application that will store data in a DynamoDB table. The ratio of reads operations to write operations will be 1000 to 1, with the same data being accessed frequently.
+What should the Developer enable on the DynamoDB table to optimize performance and minimize costs?
+ 
+ 
+ 
+•	A. Amazon DynamoDB auto scaling
+•	B. Amazon DynamoDB cross-region replication
+•	C. Amazon DynamoDB Streams
+•	D. Amazon DynamoDB Accelerator                                         
+
+Question 21                                         
+You are using AWS SAM templates to deploy a serverless application. Which of the following resource will embed nested applications from Amazon S3 buckets?
+•	A. AWS::Serverless::API
+•	B. AWS::Serverless::Application                                         
+•	C. AWS::Serverless::LayerVersion
+•	D. AWS::Serverless::Function
+Question 22                                         
+You are a developer that has recently been hired for your API expertise. The company is currently using API Gateway services for development. You need to control the behavior of an API’s front-end interactions. Which of the following could be done to achieve this? (Select TWO.)
+•	A. Modify the configuration of the Method request.                                         
+•	B. Modify the configuration of the Integration request.
+•	C. Modify the configuration of the Method response.                                         
+•	D. Modify the configuration of the Integration response.
+•	
+Question 23                                         
+You’re developing an AWS Lambda function that is interacting with a DynamoDB table. The function was working well, but now it is giving the results with a time delay. You need to debug the code to understand where the bottleneck is which is causing the performance issue. Which of the following is the ideal way to debug the code?
+•	A. Use Log statements in the code to detect the delay.
+•	B. Use Cloudwatch logs to detect where the delay could be.
+•	C. Look at the throttling errors in Cloudwatch metrics.
+•	D. Use AWS X-Ray to see where the downstream delay could be.                                         
+•	
+Question 24                                         
+A company is planning on using AWS CodePipeline for their underlying CI/CD process. The code will be picked up from an S3 bucket. The company policy mandates that all data should be encrypted at rest and that the keys are managed by the customer. Which of the following measures would you take to ensure that the CI/CD process conforms to this policy? Choose 2 possible actions from the options given below.
+•	A. Ensure that server-side encryption is enabled on the S3 bucket and data is encrypted at-rest on the CodeBuild environment using customer-managed CMK.                                         
+•	B. Ensure that server-side encryption is enabled on the CodePipeline stage.
+•	C. Configure the code pickup stage in CodePipeline to use AWS KMS.
+•	D. Configure AWS KMS with customer managed keys and use it for S3 bucket encryption.                                         
+
+Question 25                                         
+An application hosted in AWS has been configured to use a DynamoDB table. Several items are written to the DynamoDB table. As a part of an archival strategy, these items will be accessible in a particular time frame, after which they can be archived & deleted. Which of the following is an ideal way to manage the deletion of the stale items?
+•	A. Perform a scan on the table for the stale items and issue the Delete operation.
+•	B. Create an additional column to store the date. Perform a query for the stale objects and then perform the Delete operation.
+•	C. Enable versioning for the items in DynamoDB and delete the last accessed version.
+•	D. Enable TTL for the items in DynamoDB.                                         
+Question 26                                         
+You are using AWS Envelope Encryption to encrypt all of your sensitive data. Which of the following is true with regards to the AWS Envelope Encryption service?
+•	A. First, the data is encrypted using an encrypted Data Key. The encrypted Data Key is then further encrypted using an encrypted Master Key.
+•	B. First, the data is encrypted using a plaintext Data Key. The Data Key is then further encrypted using an encrypted Master Key.
+•	C. First, the data is encrypted using an encrypted Data Key. The encrypted Data Key is then further encrypted using a plaintext Master Key.
+•	D. First, the data is encrypted using a plaintext Data Key. The Data Key is then further encrypted using a plaintext Master Key.                                         
+Question 27                                         
+Your team has been instructed to deploy a Microservices and an ETL based application onto AWS. There is a requirement to manage the containerization of the application using Docker. Which of the following would the ideal way to implement this with the least amount of administrative effort?
+•	A. Use AWS OpsWorks
+•	B. Use the Elastic Container Service.                                         
+•	C. Deploy Kubernetes on EC2 Instances.
+•	D. Use the CloudFormation service.
+Question 28                                         
+You are developing a banking application that will interact with a DynamoDB table. The table is going to take in a lot of read and write operations. Which of the following would be the ideal partition key for the DynamoDB table to ensure ideal performance?
+•	A. CustomerID                                         
+•	B. CustomerName
+•	C. Location
+•	D. Age
+Question 29                                         
+You are developing an application that will be comprised of the following architecture -
+1. A set of EC2 instances to process the messages.
+2. These (EC2 instances) will be spun up by an Autoscaling group.
+3. SQS Queues to maintain the processing messages.
+4. There will be 2 pricing tiers.
+How will you ensure that the premium customers’ messages are given more preference?
+•	A. Create 2 Autoscaling Groups, one for normal and one for premium customers.
+•	B. Create 2 sets of EC2 Instances, one for normal and one for premium customers.
+•	C. Create 2 SQS queues, one for normal and one for premium customers.                                         
+•	D. Create 2 Elastic Load Balancers, one for normal and one for premium customers.
+Question 30                                         
+A software engineer is developing an application in AWS using AWS SDK. You need a mechanism implemented in the AWS SDK to deal with "re-trying" the errors. Which of the following mechanisms is suitable?
+•	A. Multiple SQS queues
+•	B. Exponential backoff algorithm                                         
+•	C. For-loop operations
+•	D. Amazon SNS notifications.
+
+Question 31                                         
+You have created the following stages in CodePipeline.
+ 
+
+What happens if there is a failure detected in the "Build" stage?
+•	A. A rollback will happen at the "Source" stage.
+•	B. The "Build" step will be attempted again.
+•	C. The "Build" step will be skipped and the "Staging" step will start.
+•	D. The entire process will halt.                                         
+Question 32                                         
+Your architect has drawn out the details for a mobile-based application. Below are the key requirements when it comes to authentication.
+ 
+·         Users should have the ability to sign-in using external identities such as Facebook or Google.
+·         There should be a facility to manage user profiles.
+Which of the following would you consider as part of the development process for the application?
+ 
+ 
+ 
+•	A. Consider using IAM Roles which can be mapped to the individual users.
+•	B. Consider using User pools in AWS Cognito.                                         
+•	C. Consider building the logic into the application.
+•	D. Consider using SAML federation identities.
+Question 33                                         
+You are using AWS DynamoDB as a database to save sales data for a global appliance company. Which of the following keys can be used to encrypt the DynamoDB data at rest? (Select TWO)
+•	A. A customer managed key                                         
+•	B. AWS managed CMK (aws/rds)
+•	C. AWS managed key for DynamoDB (aws/dynamodb)                                         
+•	D. AWS managed key for S3 (aws/s3)
+•	
+Question 34                                         
+Your company is going to develop an application in .NET Core with DynamoDB. There is a requirement that all data needs to be encrypted at rest. If the DynamoDB table has already been created, what else is needed to achieve this?
+•	A. No additional configurations are required since server-side encryption is enabled on all DynamoDB table data.                                         
+•	B. Enable encryption on the existing table.
+•	C. You cannot enable encryption at rest. Consider using the AWS RDS service instead.
+•	D. You cannot enable encryption at rest. Consider using the S3 service instead.
+•	
+Question 35                                         
+You have been instructed to manage the deployments of an application onto Elastic Beanstalk. Since this is just a development environment, you have been told to ensure that the least amount of time is taken for each deployment. Which of the following deployment mechanism would you consider based on this requirement?
+•	A. All at once                                         
+•	B. Rolling
+•	C. Immutable
+•	D. Rolling with additional batch
+Question 36                                         
+You’re developing an application onto AWS which is based on the Microservices. These Microservices will be created based on AWS Lambda functions. Because of the complexity of the flow of these different components, you need some way to manage the workflow of execution of these various Lambda functions. How could you manage this effectively now and for the future addition of Lambda functions to the application?
+•	A. Consider creating a master Lambda function that would coordinate the execution of the other Lambda functions.
+•	B. Consider creating a separate application hosted on an EC2 Instance which would coordinate the execution of the other Lambda functions.
+•	C. Consider using Step Functions to coordinate the execution of the other Lambda functions.                                         
+•	D. Consider using SQS queues to coordinate the execution of the other Lambda functions.
+•	
+ 
+Question 37                                         
+You are developing an application that will be used to receive data from multiple devices. You need to perform some preprocessing on the data before it can be analyzed by the Analytics tool. All the received data are compressed records that need to be decompressed to be analyzed further. Which of the following can be used to carry out this intermediate activity?
+•	A. Use Step Functions to pre-process the data.
+•	B. Use Kinesis with AWS Lambda functions to pre-process the data.                                         
+•	C. Use the AWS CloudFront service to pre-process the data.
+•	D. Use ELB to pre-process the data.
+Question 38                                         
+Your team has completed development of an application. Now this application needs to be deployed to run on an EC2 instance. The Application data will be stored on a separate volume which needs to be encrypted at rest. How can you ensure this requirement is met? 
+•	A. Ensure that Encryption is enabled during volume creation time.                                         
+•	B. Ensure to use Throughput Optimized HDD to allow for Encryption.
+•	C. Create a Customer master key in the KMS service.
+•	D. Create an EBS Encryption Key.
+
+Question 39                                         
+You’ve been given the requirement to customize the content which is distributed to users via a Cloudfront Distribution with minimal efforts. The content origin is an S3 bucket. How could you achieve this?
+•	A. Add an event to the S3 bucket. Make the event invoke a Lambda function that would customize the content.
+•	B. Add a Step Function. Add a step with a Lambda function just before the content gets delivered to the users.
+•	C. Consider using Lambda@Edge.                                         
+•	D. Consider using a separate application on an EC2 Instance for this purpose.
+•	
+Question 40                                         
+Your team has been instructed to develop a completely new solution for AWS. Currently, you have a limitation on the tools available to manage the complete lifecycle of the project. Which of the following service from AWS could help you handle all aspects of development and deployment?
+•	A. AWS CodePipeline
+•	B. AWS CodeBuild
+•	C. AWS CodeCommit
+•	D. AWS CodeStar                                         
+•	
+Question 41                                         
+Your team has just finished developing a new version of an existing application. This is a web-based application hosted on AWS. Currently, Route 53 is being used to point the company’s DNS name to the web site. Your Management has instructed you to deliver the new application to a portion of the users for testing. How can you achieve this?
+•	A. Port the application onto Elastic beanstalk and use the Swap URL feature.
+•	B. Use Route 53 weighted Routing policies.                                         
+•	C. Port the application onto Opswork by creating a new stack.
+•	D. Use Route 53 failover Routing policies.
+Question 42                                         
+Your AWS Lambda function writes to an S3 bucket. Which of the following is the best practice to pass operational parameters, such as the bucket name, to your Lambda function?
+•	A. Configure Amazon S3 bucket name with AWS Lambda Environment Variables.                                         
+•	B. Hard Code Amazon S3 bucket name to Lambda Function.
+•	C. Configure Amazon S3 bucket name with AWS Lambda Function Variables.
+•	D. Configure an Alias with Amazon S3 bucket name & pass it to Lambda Function.
+o	
+Question 43                                         
+You have a number of Lambda functions that need to be deployed using AWS CodeDeploy. The lambda functions have gone through multiple code revisions, and versioning in Lambda is being used to maintain the revisions. Which of the following must be done to ensure that the    version of the function is deployed in AWS CodeDeploy?
+•	A. Specify the version to be deployed in the AppSpec file.                                         
+•	B. Specify the version to be deployed in the BuildSpec file.
+•	C. Create a Lambda function environment variable called ‘VER’ and mention the version that needs to be deployed.
+•	D. Create an ALIAS for the Lambda function. Mark this as the recent version. Use this ALIAS in CodeDeploy.
+
+•	Question 44                                         
+
+for a large company. The application will be developed using AWS resources. You need to ensure that the                                           services are used during the development and subsequent deployment of the application. Which of the following would you consider incorporating to ensure leaderboards can be maintained accurately in the application?
+•	A. AWS ElasticBeanstalk
+•	B. AWS ElastiCache – Redis                                         
+•	C. AWS ElastiCache – Memcached
+•	D. AWS Opswork
+•	
+•	
+Question 45                                         
+You have a serverless application with AWS Lambda. This application has Lambda as a backend and has its data stored in DynamoDB. This application is very latency-sensitive. How could you alert your team if the application gets high latency in any of its components?
+•	A. Import the time library in the Lambda code. Calculate how much time it takes the Lambda to finish operations in DynamoDB, deploy these logs to Cloudwatch and create an alarm if the time in the logs is high.
+•	B. Enable X-Ray tracing on Lambda, use the AWS SDK inside Lambda code to monitor DynamoDB API calls in X-Ray, send this information to CloudWatch, and create a metric that triggers an SNS alert if the response times get too high.                                         
+•	C. Enable X-Ray tracing on Lambda, use the AWS SDK inside Lambda code to monitor DynamoDB API calls in X-Ray, send this information to CloudTrail, and create a metric that triggers an SNS alert if the response times get too high.
+•	D. Enable X-Ray in Lambda and DynamoDB. Create a Lambda that will retrieve the info from X-Ray every minute. Send this information to CloudWatch, create a metric that triggers an SNS alert if the response times get too high.
+•	
+Question 46                                         
+You are using S3 buckets to store images. These S3 buckets invoke a lambda function on upload. The Lambda function creates thumbnails of the images and stores them in another S3 bucket. An AWS CloudFormation template is used to create the Lambda function with the resource "AWS::Lambda::Function". Which of the following attributes is the method name that Lambda calls to execute the function?
+Sample CloudFormation template:
+ 
+•	A. FunctionName
+•	B. Layers
+•	C. Environment
+•	D. Handler                                         
+Question 47                                         
+You’ve been asked to develop an application on the AWS Cloud. The application will be used to store confidential documents in an S3 bucket. You need to ensure that the bucket is defined in such a way that it does not accept objects that are not encrypted.
+•	A. Ensure a condition is set in the bucket policy.                                         
+•	B. Ensure that a condition is set in an IAM policy.
+•	C. Enable MFA for the underlying bucket.
+•	D. Enable CORS for the underlying bucket.
+•	
+Question 48                                         
+Your application has the requirement to store data in a backend data store. Indexing should be possible on the data, but the data does not conform to any schema. Which of the following would be the ideal data store to choose for this application?
+•	A. AWS RDS
+•	B. AWS DynamoDB                                         
+•	C. AWS Redshift
+•	D. AWS S3
+
+Question 49                                         
+Developer Team is working on an event driven application that needs to process data stored in the Amazon S3 bucket & notify multiple subscribers using Amazon SNS. Thus, a single topic is created in Amazon SNS & messages are pushed to multiple Amazon SQS queues subscribed to this topic. Which of the following is a correct statement with regards to messages sent to the Amazon SQS queue?
+•	A. Each Queue will receive an identical message sent to that topic instantaneously.                                         
+•	B. Message sent to the topic will be evenly distributed among all the queues which have subscribed to this topic.
+•	C. Each Queue will receive a message sent to that topic asynchronously with a time delay.
+•	D. Messages sent to the topic will be visible to the queue, once processing of the message is completed by the first queue.
+•	
+Question 50                                         
+You are in charge of deploying an application hosted on an EC2 Instance and sitting behind an Elastic Load Balancer. You have been requested to monitor the incoming client connections to the Elastic Load Balancer. Which of the below options can suffice this requirement?
+•	A. Use AWS CloudTrail with your load balancer.
+•	B. Enable access logs on the load balancer.                                         
+•	C. Use a CloudWatch Logs Agent by installing on EC2.
+•	D. Create a custom metric CloudWatch filter on your load balancer.
+o	
+Question 51                                         
+You are in charge of developing an application that will make use of AWS services. There is a key requirement from an architectural point of view that the entire system should be decoupled to ensure less dependency. Which of the following are the suitable services to decouple different components of an application? (Select TWO)
+•	A. AWS CodePipeline
+•	B. AWS Simple Queue Service                                         
+•	C. AWS Simple Notification Service                                         
+•	D. AWS CodeBuild
+•	E. AWS CodeStar
+Question 52                                         
+A static web site has been hosted on a bucket and is now being accessed by users. One of the web pages javascript section has been changed to access data hosted in another S3 bucket. Now that same web page is no longer loading in the browser. Which of the following can help alleviate the error?
+•	A. Enable versioning for the underlying S3 bucket.
+•	B. Enable Replication so that the objects get replicated to the other bucket.
+•	C. Enable CORS on the bucket containing the data.                                         
+•	D. Change the Bucket policy for the bucket to allow access from the other bucket.
+•	
+Question 53                                         
+Your company is using Amazon ECR for storing Docker images. There are multiple Docker images & you need to retag specific Docker images so that only those images can be used for new project deployment.
+Which of the following options can be used to retag Docker images in Amazon ECR?
+•	A. Use the --image-retag option of the put-image command.
+•	B. Use the --image-tag option of the put-image command.                                         
+•	C. Pull the image & retag the image with --image-retag option
+•	D. Push the image & retag the image with --image-tag option
+Question 54                                         
+Your current log analysis application takes more than four hours to generate a report of the top 10 users of your web application. You have been asked to implement a system that can report this information in real-time, ensure that the report is always up to date, and handle increases in the number of requests to your web application. Choose the option that is cost-effective and can fulfill the requirements.
+•	A. Publish your data to CloudWatch Logs, and configure your application to Autoscale to handle the load on demand.
+•	B. Publish your log data to an Amazon S3 bucket.  Use AWS CloudFormation to create an Auto Scaling group to scale your post-processing application which is configured to pull down your log files stored an Amazon S3.
+•	C. Post your log data to an Amazon Kinesis data stream, and subscribe your log-processing application so that is configured to process your logging data.                                         
+•	D. Create a multi-AZ Amazon RDS MySQL cluster, post the logging data to MySQL, and run a map reduce job to retrieve the required information on user counts.
+Question 55                                         
+You’ve been instructed to develop a mobile application that will make use of AWS services. You need to decide on a data store to store the user sessions. Which of the following would be an ideal data store for session management?
+•	A. AWS Simple Storage Service
+•	B. AWS DynamoDB                                         
+•	C. AWS RDS
+•	D. AWS Redshift
+ 
+Question 56                                         
+Your application currently interacts with a DynamoDB table. Records are inserted into the table via the application. There is now a requirement to ensure that another record is inserted into a secondary table whenever items are updated in the DynamoDB primary table. Which of the below feature should be used when developing such a solution?
+•	A. AWS DynamoDB Encryption
+•	B. AWS DynamoDB Streams                                         
+•	C. AWS DynamoDB Accelerator
+•	D. AWSTable Accelerator
+•	
+Question 57                                         
+An application has been making use of AWS DynamoDB for its back-end data store. The size of the table has now grown to 20 GB, and the scans on the table are causing throttling errors. Which of the following should now be implemented to avoid such errors?
+•	A. Large Page size
+•	B. Reduced page size                                         
+•	C. Parallel Scans
+•	D. Sequential scans
+•	
+Question 58                                         
+In API Gateway, when a stage variable is used as part of an HTTP integration URL, which of the following are correct ways of defining a "subdomain" and the "path"? (Select TWO)
+•	A. http://example.com/${<variable_name>}/prod
+•	B. http://example.com/${stageVariables.<variable_name>}/prod                                         
+•	C. http://${stageVariables.<variable_name>}.example.com/dev/operation                                         
+•	D. http://${stageVariables}.example.com/dev/operation
+•	E. http://${<variable_name>}.example.com/dev/operation
+•	F. http://example.com/${stageVariables}/prod
+Question 59                                         
+Your company is planning to create new development environments in AWS. They want to use their existing Chef recipes that they use for their on-premise configuration for servers in AWS. Which of the following service would be ideal to use in this regard?
+•	A. AWS Elastic Beanstalk
+•	B. AWS OpsWorks                                         
+•	C. AWS Cloudformation
+•	D. AWS SQS
+ 
+Question 60                                         
+Your company has developed a web application and hosted it on an Amazon S3 bucket configured for static content. The users can log in to this app using their Google/Facebook login accounts. The application uses the AWS SDK for JavaScript in the browser to access data stored in an Amazon DynamoDB table. How can you ensure that API keys for access to your data in DynamoDB are secure?
+•	A. Create an Amazon S3 role in IAM with access to the specific DynamoDB tables, and assign it to the bucket hosting the website.
+•	B. Configure S3 bucket tags with your AWS access keys to the bucket hosting the website, so that the application can query them for access.
+•	C. Configure a web identity federation role within IAM to enable access to the correct DynamoDB resources and retrieve temporary credentials.                                         
+•	D. Store AWS keys in global variables within your application and configure the application to use these credentials when making requests.
+Question 61                                         
+You are planning to deploy a built application onto an EC2 Instance. There will be several tests conducted on this Instance. You want to have the ability to capture the logs from the web server to help diagnose any issues if they occur. How can you achieve this?
+•	A. Enable Cloudtrail for the region.
+•	B. Install the Cloudwatch agent on the Instance.                                         
+•	C. Use the VPC Flow logs to get the logs from the Instance.
+•	D. Create a dashboard for the key Cloudwatch metrics.
+
+
+•	Question 62                                         
+The software Team has created a new version of the messaging application deployed on a large number of Amazon EC2 instances. Existing application versions need to be upgraded to a new version separately in a group of EC2 instances without any degradation of the capacity during deployment. None of the Amazon EC2 instances should be replaced during this upgrade.
+Which deployment option can be considered to complete the application upgrade to the new version?
+•	A. Traffic splitting deployment
+•	B. Rolling deployment
+•	C. Rolling with additional batch deployment                                         
+•	D. Immutable deployment
+Question 63                                         
+You’ve developed a set of scripts using AWS Lambda. These scripts need to access EC2 Instances in a VPC. Which of the following needs to be done to ensure that the AWS Lambda function can access the resources in the VPC? (Select TWO)
+•	A. Ensure that the subnet IDs are configured in the Lambda function.                                         
+•	B. Ensure that the NACL IDs are configured in the Lambda function.
+•	C. Ensure that the Security Group IDs are configured in the Lambda function.                                         
+•	D. Ensure that the VPC Flow Log IDs are configured in the Lambda function.
+Question 64                                         
+You’ve currently been tasked to migrate an existing on-premises web application into Elastic Beanstalk. You can’t find any relevant AMIs in the beanstalk service that would be suitable to host your application. What would you consider as an easy step among the following to host the application?
+•	A. Migrate your application to Docker containers and then migrate to the Elastic Beanstalk environment.
+•	B. Consider using CloudFormation to deploy your environment to Elastic Beanstalk
+•	C. Consider using Packer to create a custom platform                                         
+•	D. Consider deploying your application using the Elastic Container Service
+•	
+Question 65                                         
+Company B is writing 10 items to the Dynamo DB table every second. Each item is 15.5Kb in size. What would be the required provisioned write throughput for best performance? Choose the correct answer from the options below.
+•	A. 10
+•	B. 160                                         
+•	C. 155
+•	D. 16

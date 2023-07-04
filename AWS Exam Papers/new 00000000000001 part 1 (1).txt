@@ -1,0 +1,301 @@
+Question 1: 
+What are AWS Identity and Access Management (IAM) access keys used for?
+
+Ensuring the integrity of log files.
+Logging in to the AWS Management Console.
+Making programmatic calls to AWS from AWS APIs.
+Enabling encryption in transit for web servers.
+
+Question 2: 
+A company is planning to move a number of legacy applications to the AWS Cloud. The solution must be cost-effective. Which approach should the company take?
+
+Rehost the applications on Amazon EC2 instances that are right-sized.
+Migrate the applications to dedicated hosts on Amazon EC2.
+Use AWS Lambda to host the legacy applications in the cloud.
+Use an Amazon S3 static website to host the legacy application code
+
+
+Question 3: 
+                          
+A large company is interested in avoiding long-term contracts and moving from fixed costs to variable costs.
+What is the value proposition of AWS for this company?
+
+Pay-as-you-go pricing
+Volume pricing discounts
+Economies of scale
+Automated cost optimization
+
+
+
+Question 4: 
+                          
+How does the AWS cloud increase the speed and agility of execution for customers? (Select TWO.)
+
+Lower cost of deployment
+Scalable compute capacity
+Secured data centers
+Private connections to data centres
+Fast provisioning of resources
+
+Question 5: 
+                          
+When running applications in the AWS Cloud, which common tasks can AWS manage on behalf of their customers? (Select TWO.)
+
+Patching database software
+Creating a database schema
+Application source code auditing
+Application security testing
+Taking a backup of a database
+
+
+
+Question 6: 
+                          
+A company is migrating a monolithic application that does not scale well into the cloud and refactoring it into a microservices architecture.
+Which best practice of the AWS Well-Architected Framework does this plan relate to?
+
+Use multiple solutions to improve performance.
+Implement loosely coupled services.
+Stop spending money on undifferentiated heavy lifting.
+Manage change in automation.
+
+Question 7: 
+                          
+A company is deploying a MySQL database on AWS. The database must easily scale and have automatic backup enabled.
+Which AWS service should the company use?
+
+Amazon DocumentDB
+Amazon DynamoDB
+Amazon Athena
+Amazon Aurora
+
+Question 8: 
+                          
+What advantages does a database administrator obtain by using the Amazon Relational Database Service (RDS)?
+
+RDS simplifies relational database administration tasks.
+RDS provides 99.99999999999% reliability and durability.
+RDS enables users to dynamically adjust CPU and RAM resources.
+RDS databases automatically scale based on load
+
+
+
+Question 9: 
+                          
+A company is deploying an application in the AWS Cloud. How can they secure the application? (Select TWO.)
+	 
+Enable encryption for the application data at rest.
+Enable monitoring by turning off encryption for data in transit.
+Limit access privileges according to the principal of least privilege.
+Configure public access for the AWS services used by the application.
+Provide full admin access to developer and operations staff
+
+Question 10: 
+                          
+Which AWS Cloud service provides recommendations on how to optimize performance for AWS services?
+
+Amazon Inspector
+AWS Trusted Advisor
+Amazon CloudWatch
+AWS CloudTrail
+
+Question 11: 
+                          
+A Cloud Practitioner needs a tool that can assist with viewing and managing AWS costs and usage over time. Which tool should the Cloud Practitioner use?
+
+Amazon Inspector
+AWS Cost Explorer
+AWS Organizations
+AWS Budgets
+
+Question 12: 
+                          
+A company must provide access to AWS resources for their employees. Which security practices should they follow? (Select TWO.)
+
+Enable multi-factor authentication for users.
+Create IAM Roles and apply them to IAM groups.
+Create IAM users in different AWS Regions.
+Disable password policies and management console access.
+Create IAM policies based on least privilege principles.
+
+
+Question 13: 
+                          
+What can a Cloud Practitioner use to categorize and track AWS costs by project?
+
+Multiple accounts
+Cost Allocation Tags
+AWS Trusted Advisor
+Consolidated billing
+
+
+
+Question 14: 
+                          
+For what purpose would a Cloud Practitioner access AWS Artifact?
+	 
+Download configuration details for all AWS resources.
+Gain access to AWS security and compliance documents.
+Access training materials for AWS services.
+Create a security assessment report for AWS services.
+
+
+
+Question 15: 
+                          
+A company has multiple AWS accounts and is using AWS Organizations with consolidated billing. Which advantages will they benefit from? (Select TWO.)
+
+They will receive a fixed discount for all usage across accounts.
+The default service limits in all accounts will be increased.
+They will be automatically enrolled in a business support plan.
+They may benefit from lower unit pricing for aggregated usage.
+They will receive one bill for the accounts in the Organization
+
+
+
+Question 16: 
+                          
+Which type of credential should a Cloud Practitioner use for programmatic access to AWS resources from the AWS CLI/API?
+
+SSH public keys
+Access keys
+User name and password
+SSL/TLS certificate
+
+
+
+
+Question 17: 
+                          
+Which of the following represents a value proposition for using the AWS Cloud?
+
+AWS provides full access to their data centers.
+Customers can request specialized hardware.
+It is not necessary to enter into long term contracts.
+AWS is responsible for securing your applications
+
+
+Question 18: 
+                          
+Which AWS services can a company use to gather information about activity in their AWS account? (Select TWO.)
+
+Amazon CloudWatch
+AWS Trusted Advisor
+Amazon Connect
+AWS CloudTrail
+Amazon CloudFront
+
+Question 19: 
+                          
+A company has many underutilized compute resources on-premises. Which AWS Cloud feature will help resolve this issue?
+ 
+High availability
+Global deployment
+Elasticity
+Fault tolerance
+
+
+Question 20: 
+                          
+Which of the following will help a user determine if they need to request an Amazon EC2 service limit increase?
+	 
+AWS Health Dashboard
+AWS Trusted Advisor
+Amazon RDS
+AWS Cost Explorer
+
+Question 21: 
+                          
+Which design principles are enabled by the AWS Cloud to improve the operation of workloads? (Select TWO.)
+
+Minimize platform design
+Customized hardware
+Remove single points of failure
+Minimum viable product
+Loose coupling
+
+
+Question 22: 
+                          
+A company plans to use reserved instances to get discounted pricing for Amazon EC2 instances. The company may need to change the EC2 instance type during the one year period.
+Which instance purchasing option is the MOST cost-effective for this use case?
+
+Standard Reserved Instances
+Convertible Reserved Instances
+Zonal Reserved Instances
+Regional Reserved Instances
+
+
+Question 23: 
+Which AWS service provides a managed software version control system?
+
+AWS CodePipeline
+Amazon CodeDeploy
+AWS DataSync
+AWS CodeCommit
+
+
+Question 24: 
+                          
+Which of the following deployments involves the reliability pillar of the AWS Well-Architected Framework?
+
+Amazon EBS provisioned IOPS volume
+Attach a WebACL to a CloudFront distribution
+Use CloudFormation to deploy infrastructure
+Amazon RDS Multi-AZ deployment
+
+
+
+Question 25: 
+A user is planning to launch three EC2 instances behind a single Elastic Load Balancer. The deployment should be highly available. How should the user achieve this?
+
+Launch the instances across multiple Availability Zones in a single AWS Region.
+Launch the instances as EC2 Spot Instances in the same AWS Region and the same Availability Zone.
+Launch the instances as EC2 Reserved Instances in the same AWS Region, but in different Availability Zones.
+Launch the instances in multiple AWS Regions, and use Elastic IP addresses.
+
+Question 26: 
+                          
+Which resource should a new user on AWS use to get help with deploying popular technologies based on AWS best practices, including architecture and deployment instructions?
+
+AWS Config
+AWS CloudFormation
+AWS Artifact
+AWS Quick Starts
+
+
+Question 27: 
+A company needs to publish messages to a thousands of subscribers simultaneously using a push mechanism.
+Which AWS service should the company use?
+
+Amazon Simple Workflow Service (SWF)
+AWS Step Functions
+Amazon Simple Queue Service (Amazon SQS)
+Amazon Simple Notification Service (Amazon SNS)
+
+Question 28: 
+How much data can a company store in the Amazon S3 service?
+
+100 PB
+1 PB
+100 TB
+Virtually unlimited
+
+
+Question 29: 
+Which tasks require the use of the AWS account root user? (Select TWO.)
+	 
+Changing the account name.
+Viewing AWS CloudTrail logs.
+Changing AWS Support plans.
+Changing payment currency.
+Enabling encryption for S3.
+
+Question 30: 
+What is one method of protecting against distributed denial of service (DDoS) attacks in the AWS Cloud?
+
+Enable AWS CloudTrail logging.
+Use Amazon CloudWatch monitoring.
+Monitor the AWS Health Dashboard.
+Configure a firewall in front of resources.
+

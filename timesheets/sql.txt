@@ -1,0 +1,51 @@
+insert into employees values (6778,'saikumar',20000,'machilipatnam','aws'),(6777,'bhargav',25000,'hyderabad','aws'),(6776,'vardhan',23000,'vijayawada','aws'),
+(6775,'vamsi',24000,'vizag','azure'),(6773,'nithin',24000,'kadapa','azure')
+
+
+
+
+
+
+
+
+
+
+create table employees (
+emp_id int,
+emp_name varchar(30)
+emp_salary int,
+emp_city varchar(40)
+emp_domain varchar (30)
+)
+
+
+
+id   name    sports
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+create table wissen 
+(
+emp_id int,
+emp_name varchar(30),
+emp_salary int,
+emp_city varchar(30),
+emp_domain varchar(25)
+)
+insert into wissen values (6778,'sai',20000,'pedana','aws'),(6776,'vardhan',22000,'vijayawada','azure'),
+(6777,'bhargav',25000,'hyderabad','java'),(6775,'vamsi',30000,'vizag','salesforce')
+select * from wissen
+update wissen set emp_domain= 'jacob' where emp_id = 6777;
+alter table wissen
+add column emp_state varchar(30)
+truncate wissen emp_domain
+use vardhan

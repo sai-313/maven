@@ -1,0 +1,95 @@
+jenkins installation in linux 
+
+     sudo su -  =====> change from normal user to root user 
+
+     yum update –y =====>update all the packages 
+
+     sudo amazon-linux-extras install java-openjdk11 ======>install java 
+
+     yum install git maven –y ======>install git and maven 
+
+     wget https://get.jenkins.io/war-stable/2.387.1/jenkins.war ====>install jenkins 
+
+     java -jar jenkins.war --httpPort=80  =====>war file generated  
+
+Again, we connect the same EC2 instance then we can execute the below commands 
+
+   sudo su -  =====> change from normal user to root user 
+
+   wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.75/bin/apache-tomcat-9.0.75.tar.gz =====>install tomcat9 application this file is tar file 
+
+   tar xvzf apache-tomcat-9.0.75.tar.gz  ===>tar file is converted to untar file 
+
+   ls  =====>llist of files and directories 
+
+   cd apache-tomcat-9.0.75/  =====>change the directory to apache-tomcat 
+
+     ls  =====>llist of files and directories 
+
+     cd conf/  =====>change the directory to conf 
+
+     ls =====>llist of files and directories =====>llist of files and directories 
+
+     vim server.xml ====>here we can change the port number 8080 to 80 then esc+:+wq then enter 
+
+     vim tomcat-users.xml   =====>inside this file we can give the tomcat credentials like username and password then esc+:+wq then enter 
+
+    cd ..  =====>Back to one directory 
+
+     ls  =====>llist of files and directories 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+     cd apache-tomcat-9.0.75/  =====>change the directory to apache-tomcat 
+
+    ls  =====>llist of files and directories 
+
+     cd webapps/ =====>change directory to webapps 
+
+    ls   =====>llist of files and directories 
+
+    cd host-manager/ 
+
+     ls   =====>llist of files and directories 
+
+     cd META-INF/ 
+
+    ls    =====>llist of files and directories 
+
+    vi context.xml  
+
+     pwd 
+
+    cd .. 
+
+    ls  =====>llist of files and directories 
+
+     cd manager/ 
+
+    ls  =====>llist of files and directories 
+
+    cd META-INF/ 
+
+    ls   =====>llist of files and directories 
+
+    vi context.xml  
+
+     cd ../../.. 
+
+     ls   =====>llist of files and directories 
+
+    cd bin/   =====>change directory to bin directory 
+
+    ls  =====>llist of files and directories 
+
+    ./startup.sh =====>start the tomcat application 

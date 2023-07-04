@@ -1,0 +1,195 @@
++++++++++++++++++++++++++++++++++++++++++++
+Multibranch pipeline
+-------------------------
+When developer creates code for  multiple functionalities,  he will generally do that on separate branches.
+Every branch will contains specific code related to one functionality.
+Along with the code, the developer will also create separate jenkins file for every branch.
+This jenkins file will contain the stages of CI-CD, that should be performed on that branch.
+All these branches along with jenkins file will be uploaded by into the github repository.
+
+We should create a jenkins job, which will work on these branches parallely and execute the steps present in different jenkins files.
+
+EC2 Setup:
+
+    1  sudo su -
+    2  sudo apt-get update
+    3  hostnamectl set-hostname jenkinspipeline
+    4  exec bash
+    5  sudo apt install -y openjdk-11-jdk
+    6  sudo apt install maven -y
+    7  sudo apt install git
+    8  wget https://get.jenkins.io/war-stable/2.387.3/jenkins.war
+    9  java -jar jenkins.war --httpPort=80 ==>after enter this command war file is created then one paasword is generated.
+now we can copy the public ip address of the instance with extension of 80 port.
+# public ip address of the instance:80 paste it into the browser then jenkins opened then copy the password in the instance then paste in the jenkins.
+after that one page is opened  install suggested plugins all plugins installation is completed then
+enter the username,password as admin and mail is admin@admin.com
+then click on start using jenkins option.
+
+
+Login to jenkins
+
+New item -- MultiBranchPipeline
+Select multibranch Pipeline then ok
+Branch Sources
+Add source
+Git
+Project Repository --  https://github.com/sai-313/maven.git
+
+Scan multiline pipeline triggers
+Check periodically if not otherwise
+Interval - 1 minute
+
+Apply --- Save  
+
+By this time it will be started.
+This job will check github every one minute.
+    
+
+Steps performed by the developer in EC2 instance
+------------------------------------
+
+
+$ mkdir  multibranch
+$ cd multibranch
+
+Download the files  of maven repository
+
+$ git clone https://github.com/sai-313/maven.git
+$ ls
+$ cd maven
+$ git init  ( create a new working directory )
+$ git status
+$ git add .
+$ git commit  -m "a"
+$ git log
+
+Developer creates branches
+
+$git branch developer
+$git branch tester
+$ git checkout tester
+$ git log   
+$ git checkout developer
+$ ls
+
+Make changes to the jenkins file
+
+$ vim Jenkinsfile   
+( Lets make it all stages )
+
+node('built-in')
+{
+    stage('Continuous Download')
+        {
+    git 'https://github.com/sai-313/maven.git'
+        }
+    stage('Continuous Build')
+        {
+    script: 'mvn package'
+        }
+    stage('Continuous Deployment')
+        {
+script: 'scp /home/ubuntu/.jenkins/workspace/ScriptedPipeline/webapp/target/webapp.war   ubuntu@private ip of your instance:/var/lib/tomcat8/webapps/qaenv.war'
+        }
+    stage('Continuous Testing')
+        {
+               script: 'echo "Testing Passed"'
+        }
+    stage('Continuous Delivery')
+        {
+script: 'scp /home/ubuntu/.jenkins/workspace/ScriptedPipeline/webapp/target/webapp.war   ubuntu@private ip of your instance:/var/lib/tomcat8/webapps/prodenv.war'
+        }
+}
+
+:wq then enter
+(we have done the changes in developer branch )
+
+$ git add .
+$ git commit  -m "b"
+
+$ git checkout tester  
+$  ls
+$ vim Jenkinsfile   
+( Lets make it all stages )
+node('built-in')
+{
+    stage('Continuous Download')
+        {
+    git 'https://github.com/sai-313/maven.git'
+        }
+    stage('Continuous Build')
+        {
+    script: 'mvn package'
+        }
+    stage('Continuous Deployment')
+        {
+script: 'scp /home/ubuntu/.jenkins/workspace/ScriptedPipeline/webapp/target/webapp.war   ubuntu@private ip of your instance:/var/lib/tomcat8/webapps/qaenv.war'
+        }
+    stage('Continuous Testing')
+        {
+               script: 'echo "Testing Passed"'
+        }
+    stage('Continuous Delivery')
+        {
+script: 'scp /home/ubuntu/.jenkins/workspace/ScriptedPipeline/webapp/target/webapp.war   ubuntu@private ip of your instance:/var/lib/tomcat8/webapps/prodenv.war'
+        }
+}
+
+       
+:wq then enter
+
+$ git add .
+$ git commit  -m "c"
+
+Observe ( developer branch is having jenkins file.
+                  tester branch is having jenkins file )
+$ git checkout developer
+
+
+Create new repository  in github
+--------------------------------------
+
+$ git remote add origin https://github.com/sai-313/maven.git
+$ git push -u origin --all   ( as we want to push all branches )
+
+( Check the remote repository )
+
+
+
+Login to jenkins
+
+refresh jenkins page once 
+
+Select multibranch pipeline
+You will find two branches
+
+Select developer , we can see two stages
+Select tester , we can see two stages
+
+Both branches developer and tester branches inside the multibranch pipeline project 
+now click on the multibranch pipeline project select the developer branch then click on build now option 
+then we can observe the output go to the console output option again same process is repeated fot the tester branch also.
+
+Lets say, developer will make changes and push to the repostitory
+
+$ vim README.md  ( Make some changes )
+$ git add .
+$ git commit -m "d"
+
+Similarly, lets repeat  in tester branch
+
+$ git checkout tester
+$ vim README.md   ( Make some changes )
+$ git add .
+$ git commit -m "e"
+
+$ git checkout developer
+
+To push all the branches
+$ git push -u origin --all 
+
+Observation: Job will start automatically.
+
+
+++++++++++++++++++++++++++++++++++++++++++

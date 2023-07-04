@@ -1,0 +1,481 @@
+********************************* Wissen Engineering AWS Grand Test ******************************************
+
+
+1 )Which of the following types are free under the Amazon S3 pricing model? (Select two)
+	 
+Data storage fee for objects stored in S3 Glacier
+	 
+Data storage fee for objects stored in S3 Standard
+ 
+Data transferred out to an Amazon Elastic Compute Cloud (Amazon EC2) instance in any AWS Region
+ 
+Data transferred in from the internet
+ 
+Data transferred out to an Amazon Elastic Compute Cloud (Amazon EC2) instance, when the instance is in the same AWS Region as the S3 bucket
+
+
+
+2)Which of the following is correct regarding the AWS RDS service?
+	 
+You can use Read Replicas for improved read performance and Multi-AZ for Disaster Recovery
+
+	 
+You can use both Read Replicas and Multi-AZ for Disaster Recovery
+	 
+You can use both Read Replicas and Multi-AZ for improved read performance
+	 
+You can use Read Replicas for Disaster Recovery and Multi-AZ for improved read performance
+
+
+3)The DevOps team at an IT company wants to centrally manage its servers on AWS Cloud as well as on-premise data center so that it can run commands, configure and patch servers at scale. As a Cloud Practitioner, which AWS service would you recommend for this use-case?
+ 
+OpsWorks
+
+Systems Manager
+
+	 
+Config
+	 
+CloudFormation
+
+
+
+4)Which AWS service would you use to create a logically isolated section of the AWS Cloud where you can launch AWS resources in your virtual network?
+ 
+Network Access Control List (NACL) Virtual Private Cloud (VPC)
+Subnet
+Virtual Private Network (VPN)
+
+5)Which of the following statements are CORRECT regarding AWS Global Accelerator? (Select two)
+
+l Accelerator is a good fit for non-HTTP use cases
+	 
+Global Accelerator can be used to host static websites
+	 
+Global Accelerator uses the AWS global network and its edge locations. But the edge locations used by Global Accelerator are different from Amazon CloudFront edge locations
+
+Global Accelerator provides static IP addresses that act as a fixed entry point to your applications
+
+Global Accelerator cannot be configured with an Elastic Load Balancer (ELB)
+
+
+6)Which of the following entities can be used to connect to an EC2 server from a Mac OS, Windows or Linux based computer via a browser-based client?
+ 
+Putty
+ 
+SSH
+	 
+AWS Direct Connect
+	 
+EC2 Instance Connect
+
+
+7)Which of the following AWS services offer LifeCycle Management for cost-optimal storage?
+	 
+Amazon Instance Store
+	 
+Amazon EBS
+ 
+AWS Storage Gateway
+ 
+Amazon S3
+
+
+
+8)Which of the following are benefits of the AWS Web Application Firewall (WAF)? (Select two)
+
+WAF offers dedicated support from the DDoS Response Team (DRT) and advanced reporting
+	 
+WAF can block all requests except the ones that you specify
+
+WAF offers protection against all known infrastructure (Layer 3 and 4) attacks
+	 
+AWS WAF lets you monitor the HTTP and HTTPS requests that are forwarded to Amazon Route 53
+	 
+WAF can check for the presence of SQL code that is likely to be malicious (known as SQL injection)
+
+
+9)Which of the following AWS entities lists all users in your account and the status of their various account aspects such as passwords, access keys, and MFA devices?
+	 
+AWS Trusted Advisor
+	 
+Amazon Inspector
+	 
+AWS Cost and Usage Reports
+	 
+Credential Reports
+
+
+10)Reserved Instance pricing is available for which of the following AWS services? (Select two)
+	 
+Amazon Elastic Compute Cloud (Amazon EC2)
+
+	 
+Amazon Relational Database Service (Amazon RDS)
+
+	 
+Amazon CloudFront
+	 
+Amazon Simple Storage Service (Amazon S3)
+	 
+AWS Identity & Access Management (IAM)
+
+
+
+11)Which entity ensures that your application on Amazon EC2 always has the right amount of capacity to handle the current traffic demand?
+	 
+Auto Scaling
+
+Multi AZ deployment
+	 
+Application Load Balancer
+	 
+Network Load Balancer
+
+
+12)Which of the following AWS storage services can be directly used with on-premises systems?
+	 
+Amazon Elastic File System (Amazon EFS)
+
+Amazon Elastic Block Store (EBS)
+	 
+Amazon Simple Storage Service (Amazon S3)
+ 
+Amazon EC2 Instance Store
+
+
+13)Which of the following is the MOST cost-effective EC2 instance purchasing option for short-term, spiky and critical workloads on AWS Cloud?
+	 
+On-Demand Instance
+
+ 
+Reserved Instance
+	 
+Dedicated Host
+	 
+Spot Instance
+
+
+14)Which AWS service will you use to provision the same AWS infrastructure across multiple AWS accounts and regions?
+
+AWS CodeDeploy
+ 
+AWS Systems Manager
+	 
+AWS OpsWorks
+	 
+AWS CloudFormation
+
+
+
+
+15)A media company uploads its media (audio and video) files to a centralized S3 bucket from geographically dispersed locations. Which of the following solutions can the company use to optimize transfer speeds?
+	 
+S3 Transfer Acceleration
+
+	 
+Amazon CloudFront
+	 
+AWS Global Accelerator
+	 
+AWS Direct Connect
+
+
+
+16)Which AWS service can be used to set up billing alarms to monitor estimated charges on your AWS account?
+	 
+AWS Cost Explorer
+	 
+AWS Organizations
+	 
+Amazon CloudWatch
+
+	 
+Consolidated Billing
+
+
+
+17)Threat detection is of paramount importance for security in the Cloud. Which AWS service offers this key feature?
+	 
+AWS Shield
+	 
+Amazon GuardDuty
+
+ 
+AWS CloudHSM
+	 
+Amazon Inspector
+
+
+
+18)AWS Marketplace facilitates which of the following use-cases? (Select two)
+	 
+Raise request for purchasing AWS Direct Connect connection
+	 
+Buy Amazon EC2 Standard Reserved Instances
+	 
+AWS customer can buy software that has been bundled into customized AMIs by the AWS Marketplace sellers
+
+	 
+Sell Software as a Service (SaaS) solutions to AWS customers
+
+Purchase compliance documents from third-party vendors
+
+
+
+19)Which of the following is the best practice for application architecture on AWS Cloud?
+	 
+Build tightly coupled components
+	 
+Build monolithic applications
+ 
+Build loosely coupled components
+
+ 
+Use synchronous communication between components
+
+
+
+20)Which of the following S3 storage classes do not charge any data retrieval fee? (Select two)
+	 
+S3 Intelligent-Tiering
+
+	 
+S3 Standard-IA
+	 
+S3 Glacier
+	 
+S3 One Zone-IA
+	 
+S3 Standard
+
+
+
+
+21)Which pillar of AWS Well-Architected Framework is responsible for making sure that you focus on continually improving your processes and procedures?
+	 
+Cost Optimization
+	 
+Performance Efficiency
+	 
+Reliability
+	 
+Operational Excellence
+
+
+
+
+22)A social media analytics company wants to migrate to a serverless stack on AWS. Which of the following scenarios can be handled by AWS Lambda? (Select two)
+	 
+Lambda can be used for preprocessing of data before it is stored in Amazon S3 buckets
+
+	 
+You can install low latency databases on Lambda
+	 
+Lambda can be used to execute code in response to events such as updates to DynamoDB tables
+
+Lambda can be used to store sensitive environment variables
+ 
+You can install Container Services on Lambda
+
+
+
+23)Which AWS service will help you install code automatically to an Amazon EC2 instance?
+	 
+AWS CodeBuild
+	 
+AWS Elastic Beanstalk
+ 
+AWS CodeDeploy
+
+AWS CloudFormation
+
+
+
+24)A multi-national organization has separate VPCs for each of its business units on the AWS Cloud. The organization also wants to connect its on-premises data center with all VPCs for better organization-wide collaboration. Which AWS services can be combined to build the MOST efficient solution for this use-case? (Select two)
+	 
+AWS Direct Connect
+
+VPC Peering
+	 
+AWS Internet Gateway
+	 
+AWS Storage Gateway
+	 
+AWS Transit Gateway
+
+
+25)Which benefit of Cloud Computing allows AWS to offer lower pay-as-you-go prices as usage from hundreds of thousands of customers is aggregated in the cloud?
+	 
+Massive economies of scale
+
+Go global in minutes
+	 
+Trade capital expense for variable expense
+	 
+Increased speed and agility
+
+
+
+26)Which AWS service can be used to create a Content Distribution Network (CDN) on AWS Cloud?
+	 
+Amazon Route 53
+	 
+Amazon CloudFront
+
+	 
+S3 Transfer Acceleration
+	 
+AWS Global Accelerator
+
+
+27)As per the AWS Shared Responsibility Model, which of the following is a responsibility of AWS from a security and compliance point of view?
+ 
+Patching guest OS and applications
+	 
+Service and Communications Protection
+	 
+Identity and Access Management
+	 
+Patching networking infrastructure
+
+
+
+
+28)Which of the following are the serverless computing services offered by AWS (Select two)
+	 
+AWS Lambda
+
+ 
+AWS Fargate
+
+ 
+Amazon Lightsail
+	 
+AWS Elastic Beanstalk
+	 
+Amazon Elastic Compute Cloud (EC2)
+
+
+
+29)Which of the following is a container service of AWS?
+	 
+Amazon SageMaker
+	 
+AWS Elastic Beanstalk
+	 
+Amazon Simple Notification Service
+	 
+AWS Fargate
+
+
+
+30)The DevOps team at a Big Data consultancy has set up EC2 instances across two AWS Regions for its flagship application. Which of the following characterizes this application architecture?
+	 
+Deploying the application across two AWS Regions improves scalability
+	 
+Deploying the application across two AWS Regions improves security
+	 
+Deploying the application across two AWS Regions improves agility
+	 
+Deploying the application across two AWS Regions improves availability
+
+
+
+31)Which pillar of AWS Well-Architected Framework is responsible for making sure that you select the right resource types and sizes based on your workload requirements?
+ 
+Performance Efficiency
+
+	 
+Reliability
+	 
+Cost Optimization
+	 
+Operational Excellence
+
+
+
+32)Which of the following entities are part of a VPC in the AWS Cloud? (Select two)
+	 
+Subnet
+
+API Gateway
+	 
+Internet Gateway
+
+	 
+Storage Gateway
+	 
+Object
+
+
+
+33)A firm wants to maintain the same data on S3 between its production account and multiple test accounts. Which technique should you choose to copy data into multiple test accounts while retaining object metadata?
+	 
+Amazon S3 Storage Classes
+	 
+Amazon S3 Transfer Acceleration
+	 
+Amazon S3 Bucket Policy
+	 
+Amazon S3 Replication
+
+
+
+
+34)AWS Organizations provides which of the following benefits? (Select two)
+	 
+Provision EC2 Spot instances across the member AWS accounts
+	 
+Share the reserved EC2 instances amongst the member AWS accounts
+
+	 
+Deploy patches on EC2 instances across the member AWS accounts
+	 
+Check vulnerabilities on EC2 instances across the member AWS accounts
+	 
+Volume discounts for Amazon EC2 and Amazon S3 aggregated across the member AWS accounts
+
+
+
+35)Which AWS service can be used to host a static website with the LEAST effort?
+	 
+Amazon Elastic File System (Amazon EFS)
+	 
+AWS Storage Gateway
+	 
+Amazon Simple Storage Service (Amazon S3)
+
+	 
+Amazon S3 Glacier
+
+
+
+====================ALL THE BEST ====================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

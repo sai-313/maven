@@ -1,0 +1,50 @@
+         sudo apt-get update
+      sudo apt install -y openjdk-11-jdk
+      wget https://get.jenkins.io/war-stable/2.387.3/jenkins.war
+     java -jar jenkins.war --httpPort=80
+       sudo apt install git
+   11  mkdir multibranch
+   12  cd multibranch/
+   13  git clone https://github.com/sunildevops77/maven.git
+   14  ls
+   15  cd maven/
+   16  git branch mybranch
+   17  git checkout mybranch
+   18  ls
+   19  git checkout master
+   20  vim Jenkinsfile
+   21  git status
+   22  git add .
+   23  git  commit -m "a"
+   24  git commit -m 'a"
+git commit -m "a"
+exit
+   25  git commit -m "a"
+   26  git config --global user.email "v.saikumar313@gmail.com"
+   27  git config --global user.name "sai-313"
+   28  git commit -m "a"
+   29  git checkout mybranch
+   30  ls
+   31  vim Jenkinsfile 
+   32  git status
+   33  git add .
+   34  git commit -m "b" 
+   36  git checkout master
+   37  git remote add origin https://github.com/sai-313/multibranchpipeline.git
+   38  git remote remove origin
+   39  git remote add origin https://github.com/sai-313/multibranchpipeline.git
+   40  git push -u origin --all
+
+
+   41  cd /root/.jenkins/workspace/jenkins_master/webapp/target/webapp.war
+   42  cd
+   43  cd /root/.jenkins/workspace/jenkins_master/webapp/target/webapp.war
+   44  cd /root/.jenkins/workspace/jenkins_master
+   45  ls
+   46  cd webapp
+   47  ls
+   48  cd target/
+   49  ls
+   50  history
+
+
